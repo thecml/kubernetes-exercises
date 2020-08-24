@@ -1,2 +1,2 @@
 # kubernetes-exercises
-Four hands-on exercises for Docker and Kubernetes
+Hands-on exercises for Docker and Kubernetes
