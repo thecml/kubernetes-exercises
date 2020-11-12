@@ -1,0 +1,212 @@
+%==============================
+%   Author: Christian Fischer Pedersen
+%   About: Beamer style file
+%==============================
+
+%========General
+\documentclass[compress,mathserif,presentation,notheorems]{beamer}
+%\usepackage[export]{adjustbox}
+\usepackage{etex}
+\usepackage[utf8]{inputenc}%Danske bogstaver
+\usetheme{default}
+\usecolortheme{default}
+
+%========Fonts
+\setbeamercolor{structure}{fg=aaudblue}
+\setbeamerfont{structure}{family=\sf\bfseries}
+\setbeamercolor{normal text}{fg=black}
+\setbeamerfont{normal text}{family=\sf\mdseries}
+\renewcommand{\footnoterule}{}
+\renewcommand{\footnotesize}{\tiny}
+
+%========Sections
+\AtBeginSection[]{\begin{frame}\frametitle{Outline}\tableofcontents[currentsection]\end{frame}}
+
+%========Parts
+\makeatletter
+\AtBeginPart{%
+  \addtocontents{toc}{\protect\beamer@partintoc{\the\c@part}{\beamer@partnameshort}{\the\c@page}}%
+}
+%% number, shortname, page.
+\providecommand\beamer@partintoc[3]{%
+  \ifnum\c@tocdepth=-1\relax
+    % requesting onlyparts.
+    \sf{\bf{\textcolor{aaudblue}{\makebox[6em]{PART #1:}#2}}}
+    \par
+  \fi
+}
+\define@key{beamertoc}{onlyparts}[]{%
+  \c@tocdepth=-1\relax
+}
+\makeatother
+
+%========Itemize and enumerate
+\setbeamertemplate{itemize items}[triangle]%triangle,circle,ball,square
+\setbeamertemplate{note page}[plain]
+
+%========Colors
+\usepackage{pstricks,pst-node}
+\newrgbcolor{aaudblue}{0.2 0.4 0.6}   %dark blue
+\newrgbcolor{aaulblue}{0.4 0.6 0.8}   %light blue
+\newrgbcolor{lgray}   {0.9 0.9 0.9} %light gray
+\definecolor{lgray}{rgb}{0.9,0.9,0.9} %light gray
+\definecolor{mgray}{rgb}{0.5,0.5,0.5} %medium gray
+\definecolor{dgray}{rgb}{0.2,0.2,0.2} %dark gray
+
+%========Footer
+\beamertemplatenavigationsymbolsempty
+\usepackage{tabularx}
+\setbeamertemplate{footline}{
+%\colorbox{white}
+{\color{aaudblue}
+\begin{tabularx}{0.98\textwidth}{l X}
+~\insertshortauthor, \insertshortinstitute & \hfill \insertframenumber$|$\inserttotalframenumber\\
+\end{tabularx}
+}\vskip6pt
+}
+
+%========Header
+\setbeamercolor*{palette tertiary}{fg=aaudblue,bg=white}
+\setbeamertemplate{headline}{%
+\begin{beamercolorbox}{section in head/foot}
+\vskip6pt \insertsectionnavigationhorizontal{\paperwidth}{}{} \vskip2pt
+%\vskip6pt \insertnavigation{\paperwidth} \vskip2pt
+\end{beamercolorbox}%
+}
+
+%========Title page
+\newcommand{\slidetitlepage}[2]{
+\title{#1}
+\subtitle{#2}
+\author[Christian Fischer Pedersen]%
+{Christian Fischer Pedersen\\[-1.4mm]%
+%{\scriptsize Associate Professor, PhD}\\[-1.4mm]%
+{\scriptsize cfp@eng.au.dk}}
+\institute[Electrical and Computer Engineering, Aarhus University]%
+{Section of Electrical and Computer Engineering\\
+Department of Engineering\\
+Aarhus University}
+\date{{\scriptsize Revised on \today}}
+}
+
+
+%========Math fonts 
+\usepackage{amsmath}
+\usepackage{bbm}
+\usepackage{pifont}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+
+
+%========Blocks
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercolor{block title} {bg=aaulblue,fg=white}
+\setbeamercolor{block body}{bg=white,fg=black}%fg=lgray}
+
+%========Figures and graphics
+\usepackage[dvips]{epsfig}
+\usepackage[dvips]{graphicx}
+\usepackage{subfigure}
+\usepackage{caption}%Skal komme efter 'subfigure' for ogsaa at virke paa denne
+\usepackage{fancybox}\cornersize{1}
+\usepackage{tikz}
+
+
+%========Video and sound
+%\usepackage{multimedia}
+
+
+%========Tables
+%\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{multirow}
+
+
+%========Referencing and citations
+\usepackage[sort&compress, numbers]{natbib}
+\newcommand{\citefont}[1]%
+{\fontsize{5pt}{5pt}\selectfont#1\normalsize}
+
+\newcommand{\scite}[1]%Formerly known as "slidecite"
+{\fontsize{5pt}{5pt}\selectfont(\citeauthor{#1}, \citeyear{#1} [\citenum{#1}])\normalsize}
+
+\newcommand{\sciten}[1]%Formerly known as "slidecitenormal"
+{(\citeauthor{#1}, \citeyear{#1} [\citenum{#1}])}
+
+\newcommand{\scitennp}[1]%Formerly known as "slidecitenormalnp" - np means no parantheses 
+{\citeauthor{#1}, \citeyear{#1} [\citenum{#1}]}
+
+\newcommand{\scitesub}[1]%Formerly known as "slidecitesubmitted"
+{\fontsize{5pt}{5pt}\selectfont(\citet{#1})\normalsize}
+
+\renewcommand{\bibsection}{\subsubsection*{\bibname}} %Avoid 'References' in header
+
+\newcommand{\shref}[2]%
+{\href{#1}{\textcolor{aaudblue}{\textbf{#2}}}}
+
+%\bibpunct[:]{(}{)}{;}{a}{}{,}
+
+%========Misc. defines
+\newcommand{\nolinefrac}[2]{\genfrac{}{}{0pt}{}{#1}{#2}}
+\def\simiid{\overset{\scriptsize{i.i.d.}}{\sim}}
+\def\CSMfac{$\textrm{CSM}_{\textrm{fac}}~$}
+\def\CSMfft{$\textrm{CSM}_{\textrm{fft}}~$}
+\def\Matlab{Matlab$^\copyright~$}
+\def\rhoot{\mbox{\large{$\varrho$}}}
+
+%========Vectors and matrices
+\def\lambdav{\boldsymbol{\lambda}}
+\def\lambdam{\mathbf{\Lambda}}
+%\newcommand{\tlv}[1]{\tilde{\lv}^{{\raisebox{-2pt}{\footnotesize $(#1)$}}}} 
+\def\deltav{\boldsymbol{\delta}}
+\def\deltam{\mathbf{\Delta}}
+
+%========Listings
+\usepackage{listings}
+% \lstset{
+% nputencoding=T1,
+% language=Matlab,
+% xleftmargin=8pt,
+% tabsize=2,
+% basicstyle=\small, print whole listing small
+% keywordstyle=\color{black}\bfseries, 
+% identifierstyle=, nothing happens
+% commentstyle=\color{black}\itshape,
+% stringstyle=\color{black}\ttfamily,
+% showstringspaces=false,
+% numbers=left,
+% stepnumber=0,
+% numbersep=4pt,
+% morekeywords={display}
+% }
+
+%Theorem environments
+%----------------------------------------------------------
+\usepackage{amsthm}
+\theoremstyle{remark}
+%\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{conclusion}{Conclusion}
+\newtheorem{condition}{Condition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{exercise}{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}{Notation}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}{Solution}
+\newtheorem{summary}{Summary}
+\newtheorem{property}{Property}
+\newtheorem{equivalence}{Equivalence}
+\newtheorem{expression}{Expression}

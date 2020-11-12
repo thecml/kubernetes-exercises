@@ -1,0 +1,49 @@
+%=====================================
+% Author: Christian Fischer Pedersen
+% About: Slide template
+%=====================================
+\input{cfp_slide_style.tex}
+%\setbeameroption{show notes} un-comment to see the notes
+
+%===============Title slide
+\slidetitlepage{Title}{Subtitle}
+
+\begin{document}
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+%===============Outline slide: Parts
+% \begin{frame}
+% \frametitle{Outline}
+% \tableofcontents[onlyparts]
+% \end{frame}
+
+%===============Outline slide: Sections within part
+% \part{Part title}
+% \frame{\partpage}
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+%===============Slides
+\section[...]{...}
+\frame{
+\frametitle{...}
+\framesubtitle{...}
+}
+
+%===============References
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+%\def\section*#1{}%remove auto heading for references
+\fontsize{5pt}{5pt}\selectfont
+\def\newblock{\hskip .11em plus .33em minus .07em}
+\bibliographystyle{chicago}
+\bibliography{cfp_bibliography}
+\normalsize
+\end{frame}
+
+\end{document}
