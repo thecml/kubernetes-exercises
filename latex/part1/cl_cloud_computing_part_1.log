@@ -1,0 +1,1838 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  12 NOV 2020 15:25
+entering extended mode
+**./cl_cloud_computing_part_1.tex
+(cl_cloud_computing_part_1.tex
+LaTeX2e <2018-12-01>
+(cfp_slide_style.tex
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
+Document Class: beamer 2020/07/22 v3.59 A class for typesetting presentations
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasemod
+es.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.st
+y"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box27
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasedec
+ode.sty"
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+\beamer@decode@box=\box28
+)
+\beamer@commentbox=\box29
+\beamer@modecount=\count85
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty
+"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box30
+\beamer@animcurrent=\box31
+\beamer@animshowbox=\box32
+\beamer@sectionbox=\box33
+\beamer@logobox=\box34
+\beamer@linebox=\box35
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseopt
+ions.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.st
+y"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.st
+y"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.st
+y"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cf
+g"))
+
+Class beamer Warning: ``mathserif'' is obsolete. Use font theme ``serif'' with 
+option ``onlymath'' on input line 336.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfco
+re.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.st
+y"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.st
+y"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphic
+s.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex.
+def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfs
+ys.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs
+.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
+til-common.tex"
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
+til-common-lists.tex"))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
+til-latex.def"
+\pgfutil@abb=\box36
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfr
+cs.code.tex"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.t
+ex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+fsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
+eys.code.tex"
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
+eysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count112
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+f.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+fsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+fsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+fsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
+fsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.c
+fg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+core.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
+ode.tex"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathca
+lc.code.tex"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathut
+il.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathpa
+rser.code.tex"
+\pgfmath@dimen=\dimen140
+\pgfmath@count=\count115
+\pgfmath@box=\box37
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.code.tex"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.basic.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.trigonometric.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.random.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.comparison.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.base.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.round.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.misc.code.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
+nctions.integerarithmetics.code.tex")))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfl
+oat.code.tex"
+\c@pgfmathroundto@lastzeros=\count116
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.co
+de.tex")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count117
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen159
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen163
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen164
+\pgf@sys@shading@range@num=\count118
+\pgf@shadingcount=\count119
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box41
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+coretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
+corerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\xxcolo
+r.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count120
+\XC@countmixins=\count121
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegshi.
+sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr
+.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.s
+ty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.st
+y"
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hy
+perref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-ge
+neric.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty
+"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.s
+ty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count124
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.cf
+g"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4424.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4424.
+Package hyperref Info: Option `implicit' set `false' on input line 4424.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4803.
+\c@Hy@tempcnt=\count125
+ ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5156.
+\XeTeXLinkMargin=\dimen166
+\Fld@menulength=\count126
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring OFF on input line 6431.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
+\Hy@abspage=\count127
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def
+"
+File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfilech
+eck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasereq
+uires.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasecom
+patibility.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefon
+t.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty
+"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.st
+y"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetra
+nslator.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r.sty"
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasemis
+c.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetwo
+screens.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseove
+rlay.sty"
+\beamer@argscount=\count130
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count131
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetit
+le.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasesec
+tion.sty"
+\c@lecture=\count132
+\c@part=\count133
+\c@section=\count134
+\c@subsection=\count135
+\c@subsubsection=\count136
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefra
+me.sty"
+\beamer@framebox=\box42
+\beamer@frametitlebox=\box43
+\beamer@zoombox=\box44
+\beamer@zoomcount=\count137
+\beamer@zoomframecount=\count138
+\beamer@frametextheight=\dimen169
+\c@subsectionslide=\count139
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen170
+\c@framenumber=\count140
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasever
+batim.sty"
+\beamer@verbatimfileout=\write4
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefra
+mesize.sty"
+\beamer@splitbox=\box45
+\beamer@autobreakcount=\count141
+\beamer@autobreaklastheight=\dimen171
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefra
+mecomponents.sty"
+\beamer@footins=\box46
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasecol
+or.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasenot
+es.sty"
+\beamer@frameboxcopy=\box47
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetoc
+.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetem
+plates.sty"
+\beamer@sbttoks=\toks30
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseaux
+templates.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasebox
+es.sty"
+\bmb@box=\box48
+\bmb@colorbox=\box49
+\bmb@boxshadow=\box50
+\bmb@boxshadowball=\box51
+\bmb@boxshadowballlarge=\box52
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
+)
+\beamer@blockheadheight=\dimen176
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseloc
+alstructure.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count142
+\c@table=\count143
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasenav
+igation.sty"
+\beamer@section@min@dim=\dimen177
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasethe
+orems.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip51
+For additional information on amsmath, use the `?' option.
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen178
+)) ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+) ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count144
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count145
+\leftroot@=\count146
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count147
+\DOTSCASE@=\count148
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count149
+\c@MaxMatrixCols=\count150
+\dotsspace@=\muskip11
+\c@parentequation=\count151
+\dspbrk@lvl=\count152
+\tag@help=\toks33
+\row@=\count153
+\column@=\count154
+\maxfields@=\count155
+\andhelp@=\toks34
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasethe
+mes.sty"))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerthemede
+fault.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerfontthe
+medefault.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamercolorth
+emedefault.sty")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerinnerth
+emedefault.sty"
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerouterth
+emedefault.sty")))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etex-pkg\etex.sty"
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+\et@xins=\count156
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks43
+\inpenc@posthook=\toks44
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pstricks\pstricks.st
+y"
+Package: pstricks 2018/12/21 v0.69 LaTeX wrapper for `PSTricks' (RN,HV)
+ ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\shellesc.sty
+"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\pst-xkey.t
+ex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.te
+x"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.t
+ex"
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count157
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pstricks.
+tex"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pst-fp.te
+x" `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count158
+\pstFP@xia=\count159
+\pstFP@xib=\count160
+\pstFP@xfa=\count161
+\pstFP@xfb=\count162
+\pstFP@rega=\count163
+\pstFP@regb=\count164
+\pstFP@regs=\count165
+\pstFP@times=\count166
+)
+\psLoopIndex=\count167
+
+`PSTricks' v2.97  <2019/05/11> (tvz,hv)
+\pst@dima=\dimen189
+\pst@dimb=\dimen190
+\pst@dimc=\dimen191
+\pst@dimd=\dimen192
+\pst@dimg=\dimen193
+\pst@dimh=\dimen194
+\pst@dimm=\dimen195
+\pst@dimn=\dimen196
+\pst@dimo=\dimen197
+\pst@dimp=\dimen198
+\pst@hbox=\box55
+\pst@ibox=\box56
+\pst@boxg=\box57
+\pst@cnta=\count168
+\pst@cntb=\count169
+\pst@cntc=\count170
+\pst@cntd=\count171
+\pst@cntg=\count172
+\pst@cnth=\count173
+\pst@cntm=\count174
+\pst@cntn=\count175
+\pst@cnto=\count176
+\pst@cntp=\count177
+\@zero=\count178
+\pst@toks=\toks47
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pstricks.
+con")
+\psunit=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\psxunit=\dimen256
+\psyunit=\dimen257
+\pst@C@@rType=\count179
+\pslinewidth=\dimen258
+\psk@startLW=\dimen259
+\psk@endLW=\dimen260
+\pst@customdefs=\toks48
+\pslinearc=\dimen261
+\pst@symbolStep=\dimen262
+\pst@symbolWidth=\dimen263
+\pst@symbolLinewidth=\dimen264
+\everypsbox=\toks49
+\psframesep=\dimen265
+\pslabelsep=\dimen266
+\sh@wgridXunit=\dimen267
+\sh@wgridYunit=\dimen268
+\pst@shift=\dimen269
+)
+File: pstricks.tex 2019/05/11 v2.97 `PSTricks' (tvz,hv)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pst-fp.te
+x")
+File: pst-fp.tex 2019/05/11 v2.97 `PST-fp' (hv)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pst-node\pst-node.st
+y"
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pst-node\pst-node.
+tex"  v1.42a, 2020/04/01
+\psrow=\count180
+\pscol=\count181
+\psmatrixcnt=\count182
+\psrowsep=\skip57
+\pscolsep=\skip58
+\pst@args=\count183
+\num@pts=\count184
+\pst@argcnt=\count185
+)
+File: pst-node.tex 2020/04/01 1.42a `pst-node' (tvz,hv)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen270
+\ar@mcellbox=\box58
+\extrarowheight=\dimen271
+\NC@list=\toks50
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box59
+)
+\TX@col@width=\dimen272
+\TX@old@table=\dimen273
+\TX@old@col=\dimen274
+\TX@target=\dimen275
+\TX@delta=\dimen276
+\TX@cols=\count186
+\TX@ftn=\toks51
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bbm\bbm.sty"
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\wasysym.sty"
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsfig.st
+y"
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen277
+\epsfysize=\dimen278
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigure.
+sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip61
+\subfigcapskip=\skip62
+\subfigcaptopadj=\dimen279
+\subfigbottomskip=\skip63
+\subfigcapmargin=\dimen280
+\subfiglabelskip=\skip64
+\c@subfigure=\count187
+\c@lofdepth=\count188
+\c@subtable=\count189
+\c@lotdepth=\count190
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigure.
+cfg")
+\subfig@top=\skip65
+\subfig@bottom=\skip66
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.sty
+"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen281
+\captionmargin@=\dimen282
+\captionwidth=\dimen283
+\caption@tempdima=\dimen284
+\caption@indent=\dimen285
+\caption@parindent=\dimen286
+\caption@hangindent=\dimen287
+)
+\c@caption@flags=\count191
+\c@ContinuedFloat=\count192
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: subfigure package is loaded.
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancybox\fancybox.st
+y"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box60
+\shadowsize=\dimen288
+\@Sbox=\box61
+\do@VerbBox=\toks52
+\the@fancyput=\toks53
+\this@fancyput=\toks54
+\EndVerbatimTokens=\toks55
+\Verbatim@Outfile=\write5
+\Verbatim@Infile=\read2
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\ti
+kz.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.s
+ty"
+Loading pgf.sty
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
+uleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box62
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
+uleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
+fcomp-version-0-65.sty"
+Loading pgfcomp-version-0-65.sty
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
+fcomp-version-1-18.sty"
+Loading pgfcomp-version-1-18.sty
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor
+.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkey
+s.sty"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
+eys.code.tex"))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty
+"
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
+ode.tex"))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgff
+or.code.tex"
+Loading pgffor.code.tex
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
+ode.tex")
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks56
+\pgffor@toks=\toks57
+))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
+tikz\tikz.code.tex"
+Loading tikz.code.tex
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
+ibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count193
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikz@lastmovetox=\dimen298
+\tikz@lastmovetoy=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count194
+\tikznumberofchildren=\count195
+\tikznumberofcurrentchild=\count196
+\tikz@fig@count=\count197
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
+ulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count198
+\pgfmatrixcurrentcolumn=\count199
+Normal \count register pool exhausted, switching to extended pool.
+\pgf@matrix@numberofcolumns=\count277
+)
+\tikz@expandcount=\count278
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.st
+y"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count279
+\rotFPtop=\skip67
+\rotFPbot=\skip68
+\rot@float@box=\box67
+\rot@mess@toks=\toks58
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.st
+y"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count280
+\multirow@dima=\skip70
+\bigstrutjot=\dimen302
+) ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip71
+\bibsep=\skip72
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count281
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.st
+y"
+\lst@mode=\count282
+\lst@gtempboxa=\box68
+\lst@token=\toks59
+\lst@length=\count283
+\lst@currlwidth=\dimen303
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen304
+\lst@width=\dimen305
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen306
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty
+"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
+\lst@framebox=\box69
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cf
+g"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+\c@theorem=\count290
+\c@acknowledgement=\count291
+\c@algorithm=\count292
+\c@axiom=\count293
+\c@case=\count294
+\c@claim=\count295
+\c@conclusion=\count296
+\c@condition=\count297
+\c@conjecture=\count298
+\c@corollary=\count299
+\c@criterion=\count300
+\c@definition=\count301
+\c@example=\count302
+\c@exercise=\count303
+\c@lemma=\count304
+\c@notation=\count305
+\c@problem=\count306
+\c@proposition=\count307
+\c@remark=\count308
+\c@solution=\count309
+\c@summary=\count310
+\c@property=\count311
+\c@equivalence=\count312
+)
+\c@expression=\count313
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 9.
+
+(cl_cloud_computing_part_1.aux
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+)
+\openout1 = `cl_cloud_computing_part_1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf
+.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen307
+\scratchbox=\box70
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen308
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks61
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-ba
+se.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring OFF on input line 11.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty
+"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitles
+tring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count320
+)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+ (cl_cloud_computing_part_1.out) (cl_cloud_computing_part_1.out)
+\@outlinefile=\write6
+\openout6 = `cl_cloud_computing_part_1.out'.
+
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
+r-theorem-dictionary-English.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count321
+ (cl_cloud_computing_part_1.nav)
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd")
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd")
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+Non-PDF special ignored!
+<special> header=pst-node.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+{C:/Users/cml/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(cl_cloud_computing_part_1.toc) [2
+
+] (cl_cloud_computing_part_1.toc) [3
+
+]
+[4
+
+] (cl_cloud_computing_part_1.toc) [5
+
+] [6
+
+] (cl_cloud_computing_part_1.toc)
+[7
+
+] [8
+
+]
+<figures/1_1.png, id=175, 539.76656pt x 247.67531pt>
+File: figures/1_1.png Graphic file (type png)
+<use figures/1_1.png>
+Package pdftex.def Info: figures/1_1.png  used on input line 110.
+(pdftex.def)             Requested size: 307.28987pt x 141.00253pt.
+ [9
+
+ <./figures/1_1.png>]
+<figures/1_2.png, id=194, 706.89093pt x 449.42906pt>
+File: figures/1_2.png Graphic file (type png)
+<use figures/1_2.png>
+Package pdftex.def Info: figures/1_2.png  used on input line 120.
+(pdftex.def)             Requested size: 307.28987pt x 195.36975pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.120 }
+       
+Overfull \vbox (13.6966pt too high) detected at line 120
+ []
+
+[10
+
+ <./figures/1_2.png>]
+<figures/1_3.png, id=210, 648.17157pt x 337.26pt>
+File: figures/1_3.png Graphic file (type png)
+<use figures/1_3.png>
+Package pdftex.def Info: figures/1_3.png  used on input line 130.
+(pdftex.def)             Requested size: 307.28987pt x 159.89139pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.130 }
+        [11
+
+ <./figures/1_3.png>] (cl_cloud_computing_part_1.toc) [12
+
+] [13
+
+]
+<figures/1_4.png, id=257, 686.565pt x 370.38374pt>
+File: figures/1_4.png Graphic file (type png)
+<use figures/1_4.png>
+Package pdftex.def Info: figures/1_4.png  used on input line 158.
+(pdftex.def)             Requested size: 307.28987pt x 165.77254pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158 }
+        [14
+
+ <./figures/1_4.png>] (cl_cloud_computing_part_1.toc) [15
+
+] [16
+
+]
+<figures/1_6.png, id=303, 700.11563pt x 328.22626pt>
+File: figures/1_6.png Graphic file (type png)
+<use figures/1_6.png>
+Package pdftex.def Info: figures/1_6.png  used on input line 194.
+(pdftex.def)             Requested size: 307.28987pt x 144.0644pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 }
+        [17
+
+ <./figures/1_6.png>]
+<figures/1_7.png, id=319, 840.89156pt x 315.42844pt>
+File: figures/1_7.png Graphic file (type png)
+<use figures/1_7.png>
+Package pdftex.def Info: figures/1_7.png  used on input line 204.
+(pdftex.def)             Requested size: 307.28987pt x 115.26758pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 }
+        [18
+
+ <./figures/1_7.png>] (cl_cloud_computing_part_1.toc) [19
+
+] [20
+
+]
+<figures/1_8.png, id=366, 645.91313pt x 252.945pt>
+File: figures/1_8.png Graphic file (type png)
+<use figures/1_8.png>
+Package pdftex.def Info: figures/1_8.png  used on input line 234.
+(pdftex.def)             Requested size: 307.28987pt x 120.33537pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.234 }
+        [21
+
+ <./figures/1_8.png>] [22
+
+] [23
+
+]
+<figures/1_9.png, id=406, 621.07031pt x 244.66406pt>
+File: figures/1_9.png Graphic file (type png)
+<use figures/1_9.png>
+Package pdftex.def Info: figures/1_9.png  used on input line 286.
+(pdftex.def)             Requested size: 307.28987pt x 121.05121pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.286 }
+        [24
+
+ <./figures/1_9.png>]
+<figures/1_10.png, id=422, 660.96938pt x 469.755pt>
+File: figures/1_10.png Graphic file (type png)
+<use figures/1_10.png>
+Package pdftex.def Info: figures/1_10.png  used on input line 296.
+(pdftex.def)             Requested size: 245.83282pt x 174.71695pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.296 }
+        [25
+
+ <./figures/1_10.png>] (cl_cloud_computing_part_1.toc) [26
+
+]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+
+(cl_cloud_computing_part_1.vrb
+<listings/2_1.png, id=457, 630.10406pt x 182.93344pt>
+File: listings/2_1.png Graphic file (type png)
+<use listings/2_1.png>
+Package pdftex.def Info: listings/2_1.png  used on input line 8.
+(pdftex.def)             Requested size: 307.28987pt x 89.21388pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 		\label{fig:}
+                   ) [27
+
+ <./listings/2_1.png>]
+<figures/2_1.png, id=474, 709.14937pt x 309.40594pt>
+File: figures/2_1.png Graphic file (type png)
+<use figures/2_1.png>
+Package pdftex.def Info: figures/2_1.png  used on input line 326.
+(pdftex.def)             Requested size: 307.28987pt x 134.07588pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.326 }
+        [28
+
+ <./figures/2_1.png>]
+<listings/2_2.png, id=490, 619.56468pt x 236.38312pt>
+File: listings/2_2.png Graphic file (type png)
+<use listings/2_2.png>
+Package pdftex.def Info: listings/2_2.png  used on input line 341.
+(pdftex.def)             Requested size: 307.28987pt x 117.23904pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 }
+        [29
+
+ <./listings/2_2.png>]
+<listings/2_3.png, id=506, 607.51968pt x 100.12407pt>
+File: listings/2_3.png Graphic file (type png)
+<use listings/2_3.png>
+Package pdftex.def Info: listings/2_3.png  used on input line 355.
+(pdftex.def)             Requested size: 307.28987pt x 50.64398pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.355 }
+        [30
+
+ <./listings/2_3.png>]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+ (cl_cloud_computing_part_1.vrb
+<listings/2_4.png, id=522, 606.01407pt x 106.89937pt>
+File: listings/2_4.png Graphic file (type png)
+<use listings/2_4.png>
+Package pdftex.def Info: listings/2_4.png  used on input line 8.
+(pdftex.def)             Requested size: 276.559pt x 48.78445pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 		\label{fig:}
+                   
+<listings/2_5.png, id=525, 609.77812pt x 146.79843pt>
+File: listings/2_5.png Graphic file (type png)
+<use listings/2_5.png>
+Package pdftex.def Info: listings/2_5.png  used on input line 13.
+(pdftex.def)             Requested size: 276.559pt x 66.58058pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 		\label{fig:}
+                   )
+Overfull \vbox (7.97192pt too high) detected at line 374
+ []
+
+[31
+
+ <./listings/2_4.png> <./listings/2_5.png>]
+<figures/2_2.png, id=543, 702.37407pt x 405.76593pt>
+File: figures/2_2.png Graphic file (type png)
+<use figures/2_2.png>
+Package pdftex.def Info: figures/2_2.png  used on input line 384.
+(pdftex.def)             Requested size: 307.28987pt x 177.52835pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.384 }
+        [32
+
+ <./figures/2_2.png>]
+<figures/2_3.png, id=559, 575.90157pt x 229.60782pt>
+File: figures/2_3.png Graphic file (type png)
+<use figures/2_3.png>
+Package pdftex.def Info: figures/2_3.png  used on input line 394.
+(pdftex.def)             Requested size: 307.28987pt x 122.51839pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 }
+        [33
+
+ <./figures/2_3.png>]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+ (cl_cloud_computing_part_1.vrb
+Overfull \hbox (85.92455pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [34
+
+]
+<listings/2_6.png, id=587, 614.295pt x 135.50626pt>
+File: listings/2_6.png Graphic file (type png)
+<use listings/2_6.png>
+Package pdftex.def Info: listings/2_6.png  used on input line 429.
+(pdftex.def)             Requested size: 307.28987pt x 67.78397pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.429 }
+       
+<listings/2_8.png, id=590, 607.51968pt x 102.3825pt>
+File: listings/2_8.png Graphic file (type png)
+<use listings/2_8.png>
+Package pdftex.def Info: listings/2_8.png  used on input line 429.
+(pdftex.def)             Requested size: 307.28987pt x 51.78633pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.429 }
+        [35
+
+ <./listings/2_6.png> <./listings/2_8.png>]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+
+(cl_cloud_computing_part_1.vrb
+<listings/2_9.png, id=607, 611.28375pt x 150.5625pt>
+File: listings/2_9.png Graphic file (type png)
+<use listings/2_9.png>
+Package pdftex.def Info: listings/2_9.png  used on input line 7.
+(pdftex.def)             Requested size: 307.28987pt x 75.6854pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 		\label{fig:}
+                  
+Overfull \hbox (3.14256pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [36
+
+ <./listings/2_9.png>]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+ (cl_cloud_computing_part_1.vrb) [37
+
+]
+<figures/2_5.png, id=636, 626.34pt x 244.66406pt>
+File: figures/2_5.png Graphic file (type png)
+<use figures/2_5.png>
+Package pdftex.def Info: figures/2_5.png  used on input line 485.
+(pdftex.def)             Requested size: 245.83282pt x 96.02711pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.485 }
+       
+Overfull \vbox (12.68317pt too high) detected at line 485
+ []
+
+[38
+
+ <./figures/2_5.png>]
+<listings/2_14.png, id=652, 603.0028pt x 94.10156pt>
+File: listings/2_14.png Graphic file (type png)
+<use listings/2_14.png>
+Package pdftex.def Info: listings/2_14.png  used on input line 500.
+(pdftex.def)             Requested size: 307.28987pt x 47.95381pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.500 }
+       
+<listings/2_15.png, id=655, 599.23875pt x 94.85437pt>
+File: listings/2_15.png Graphic file (type png)
+<use listings/2_15.png>
+Package pdftex.def Info: listings/2_15.png  used on input line 500.
+(pdftex.def)             Requested size: 307.28987pt x 48.64284pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.500 }
+        [39
+
+ <./listings/2_14.png> <./listings/2_15.png>]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+
+(cl_cloud_computing_part_1.vrb
+Overfull \hbox (16.93956pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+) [40
+
+]
+\openout4 = `cl_cloud_computing_part_1.vrb'.
+
+ (cl_cloud_computing_part_1.vrb
+Overfull \hbox (3.14256pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+<listings/2_16.png, id=684, 605.26125pt x 119.69719pt>
+File: listings/2_16.png Graphic file (type png)
+<use listings/2_16.png>
+Package pdftex.def Info: listings/2_16.png  used on input line 9.
+(pdftex.def)             Requested size: 307.28987pt x 60.77078pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 		\label{fig:}
+                   ) [41
+
+ <./listings/2_16.png>]
+<figures/2_7.png, id=700, 629.35126pt x 201.00093pt>
+File: figures/2_7.png Graphic file (type png)
+<use figures/2_7.png>
+Package pdftex.def Info: figures/2_7.png  used on input line 535.
+(pdftex.def)             Requested size: 307.28987pt x 98.14166pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.535 }
+        [42
+
+ <./figures/2_7.png>]
+<figures/2_8.png, id=716, 639.13782pt x 293.59688pt>
+File: figures/2_8.png Graphic file (type png)
+<use figures/2_8.png>
+Package pdftex.def Info: figures/2_8.png  used on input line 545.
+(pdftex.def)             Requested size: 307.28987pt x 141.15784pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.545 }
+        [43
+
+ <./figures/2_8.png>] (cl_cloud_computing_part_1.bbl) [44
+
+]
+\tf@nav=\write7
+\openout7 = `cl_cloud_computing_part_1.nav'.
+
+\tf@toc=\write8
+\openout8 = `cl_cloud_computing_part_1.toc'.
+
+\tf@snm=\write9
+\openout9 = `cl_cloud_computing_part_1.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
+
+(cl_cloud_computing_part_1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
+Package rerunfilecheck Info: File `cl_cloud_computing_part_1.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 87A7CB078426299AAC9BFD853D379D56;327.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 26762 strings out of 492895
+ 497283 string characters out of 3124669
+ 601268 words of memory out of 3000000
+ 29962 multiletter control sequences out of 15000+200000
+ 14017 words of font info for 53 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,19n,92p,839b,1104s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmss10.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmss8.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/cml/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/cml/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/c
+ml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on cl_cloud_computing_part_1.pdf (44 pages, 1557539 bytes).
+PDF statistics:
+ 795 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+

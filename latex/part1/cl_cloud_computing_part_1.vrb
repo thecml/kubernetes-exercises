@@ -1,0 +1,12 @@
+\frametitle{Accessing our application}
+	\framesubtitle{}
+	We can create a service that exposes our pod to us
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl expose pod kubia --type=NodePort \\
+ --name kubia-http
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/2_16.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}

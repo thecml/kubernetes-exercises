@@ -3,7 +3,6 @@
 % About: Slide template
 %=====================================
 \input{cfp_slide_style.tex}
-\usepackage{listings}
 %\setbeameroption{show notes} un-comment to see the notes
 
 %===============Title slide
@@ -27,7 +26,7 @@
 	\framesubtitle{}
 	The cloud
 	\begin{itemize}
-		\item A metaphor for the Internet. Something that is present remotely.
+		\item A metaphor for the Internet. Something that is remote.
 	\end{itemize}
 	Cloud computing
 	\begin{itemize}
@@ -69,8 +68,7 @@
 	Deployment models
 	\begin{itemize}
 		\item Private cloud
-		\item Public cloud (e.g. AWS, Google)
-		\item Hybrid cloud
+		\item Public cloud (e.g. Amazon AWS, Google Cloud)
 	\end{itemize}	
 }
 
@@ -96,37 +94,37 @@
 		\item Modern version of the SoA-style
 		\item Small, independent services that do one thing
 		\item Highly maintainable, testable, loosely coupled
-		\item An analogy: "Instead of having one machine build\\
-		a whole car, get multiple factories to work at the same time.
+		\item "Instead of having one machine build a whole car,\\
+		 get multiple factories to work at the same time.
 	\end{itemize}	
 }
 
 \frame{
-	\frametitle{SoA}
+	\frametitle{Monolitic vs. microservices}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_1.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_1.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
 \frame{
-	\frametitle{SoA}
+	\frametitle{Monolitic vs. microservices}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_2.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_2.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
 \frame{
-	\frametitle{SoA}
+	\frametitle{Monolitic vs. microservices}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_3.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_3.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -150,11 +148,11 @@
 }
 
 \frame{
-	\frametitle{A normal VM vs containers}
+	\frametitle{A normal VM vs. containers}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_4.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_4.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -174,14 +172,14 @@
 		\item Docker is a container tool that can run and create containers
 		\item Containers only see their exact file system
 		\item Similar to VM's, but less overhead
-		\item Consists of resealable layers
-		\item Dockerfile
+		\item Consists of reusable layers
+		\item Uses a Dockerfile
 	\end{itemize}
 	Important concepts
 	\begin{itemize}
 		\item Images. Something you package your application into
 		\item Registries. A repository to store your image
-		\item Containers. Like normal Linux container.\\Isolated from host and other processes
+		\item Containers. Like normal Linux container
 	\end{itemize}
 }
 
@@ -189,8 +187,8 @@
 	\frametitle{The Docker build process}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_6.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_6.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -199,8 +197,8 @@
 	\frametitle{Running apps in VM's vs. containers}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_7.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_7.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -229,13 +227,12 @@
 	\frametitle{Running apps in VM's vs. containers}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_8.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_8.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\section[Kubernetes]{Kubernetes cont.}
 \frame{
 	\frametitle{Kubernetes cont.}
 	\framesubtitle{}
@@ -244,7 +241,6 @@
 		\item Keep containers running.
 		\item Scaling copies.
 		\item Hitting a moving target.
-		\item Master and nodes.
 	\end{itemize}
 	Benefits of using Kubernetes
 	\begin{itemize}
@@ -254,21 +250,24 @@
 		\item Automatic scaling
 		\item Access to services via API/DNS
 	\end{itemize}
+	Enterprise-use
+	\begin{itemize}
+		\item Often seen as a PaaS (OpenShift)
+	\end{itemize}
 }
 
-\section[Kubernetes]{Kubernetes cont.}
 \frame{
 	\frametitle{Kubernetes cont.}
 	\framesubtitle{}
 	The master node hosts the Control Plane and worker nodes run deployments.
-	The master
+	The master contains
 	\begin{itemize}
-		\item API Server, which you and Control Plane components communicate with
+		\item API Server, which you and the Control Plane components communicate with
 		\item The Scheduler, which schedules your apps
 		\item The Controller Manager, keeps track of workers among others
-		\item etcd, a distributed db that stores cluster configuration.
+		\item etcd, a distributed db that stores cluster configuration
 	\end{itemize}
-	The nodes
+	The nodes contain
 	\begin{itemize}
 		\item Docker, rtk or another container runtime
 		\item Kubelet, which talks to the API server and manages containers
@@ -280,24 +279,24 @@
 	\frametitle{The components in Kubernetes}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_9.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/1_9.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
 \frame{
-	\frametitle{A basic overview of Kubernetes's architecture}
+	\frametitle{An overview of Kubernetes's architecture}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/1_10.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=0.8\textwidth]{figures/1_10.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\section[Kubernetes hands on]{Hands on}
-\frame{
+\section[Hands on]{Hands on}
+\begin{frame}[fragile]
 	\frametitle{Running the busybox image}
 	\framesubtitle{}
 	Installing Docker and running a Hello World container
@@ -305,23 +304,23 @@
 		\item Busybox is a single executable with many UNIX tools.
 	\end{itemize}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_1.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_1.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker run busybox echo "Hello world"
-		$ docker run <image>
-		$ docker run <image>:<tag>
+$ docker run busybox echo "Hello world"
+$ docker run <image>
+$ docker run <image>:<tag>
 	\end{lstlisting}
-}
+\end{frame}
 
 \frame{
 	\frametitle{Running echo "Hello world" in a container}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_1.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/2_1.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -335,8 +334,8 @@
 		\item Using Node.js and JavaScript
 	\end{itemize}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_2.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_2.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -349,39 +348,37 @@
 		\item It describes the app and its dependencies
 	\end{itemize}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_3.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_3.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{Building the container image}
 	\framesubtitle{}
-	\begin{itemize}
-		\item Docker daemon builds the image.
-	\end{itemize}
+	The Docker daemon builds the image.
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker build -t kubia .
+$ docker build -t kubia .
 	\end{lstlisting}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_4.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=0.9\textwidth]{listings/2_4.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_5.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=0.9\textwidth]{listings/2_5.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
-}
+\end{frame}
 
 \frame{
-	\frametitle{Building a new container image from Dockerfile}
+	\frametitle{Building a new container image from a Dockerfile}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_2.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/2_2.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -390,75 +387,71 @@
 	\frametitle{The layers of a container image}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_3.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/2_3.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{More container commands}
 	\framesubtitle{}
 	Running the container image
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker run --name kubia-container -p 8080:8080 -d kubia
-		$ curl localhost:8080
+$ docker run --name kubia-container -p 8080:8080 -d kubia
+$ curl localhost:8080
 	\end{lstlisting}
 	Exploring the inside of a running container
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker exec -it kubia-container bash
-		$ ps aux
+$ docker exec -it kubia-container bash
+$ ps aux
 	\end{lstlisting}
 	Stopping and removing a container
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker stop kubia-container
-		$ docker rm kubia-container
+$ docker stop kubia-container
+$ docker rm kubia-container
 	\end{lstlisting}
-}
+\end{frame}
 
 \frame{
 	\frametitle{Output of container commands}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_6.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_6.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_7.png}
-		\caption{Listing. by courtesy of Marko Luksa}
-		\label{fig:}
-	\end{figure}
-	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_8.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_8.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{Pushing the image to the registry}
 	\framesubtitle{}
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker tag kubia <dockerid>/kubia
+$ docker tag kubia <dockerid>/kubia
 	\end{lstlisting}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_9.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_9.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ docker push <dockerid>/kubia
-		$ docker run -p 8080:8080 -d <dockerid>/kubia
+$ docker push <dockerid>/kubia
+$ docker run -p 8080:8080 -d <dockerid>/kubia
 	\end{lstlisting}
-}
+\end{frame}
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{Setting up a Kubernetes cluster with Minikube}
 	\framesubtitle{}
 	What is minikube
 	\begin{itemize}
-		\item minikube implements a local Kubernetes cluster
+		\item A tool that enables us to run Kubernetes locally
+		\item Implements a local single node cluster
 		\item Runs on macOS, Linux and Windows
 		\item Used for Kubernetes development and prototyping
 		\item Exercises and project make use of minikube
@@ -466,28 +459,27 @@
 	You can also order a hosted Kubernetes cluster at \\
 	Google, Amazon, Microsoft Azure etc.
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ minikube start
-		$ kubectl get nodes
-		$ kubectl describe node gke-kubia-85f6-node-0rrx
+$ minikube start
+$ kubectl get nodes
+$ kubectl describe node <nodeid>
 	\end{lstlisting}
-}
+\end{frame}
 
 \frame{
 	\frametitle{Introducing pods}
 	\framesubtitle{}
-	Before we deploy our app, we need to know what pod is
+	Before we can deploy our app, we need to know what pod is
 	\begin{itemize}
-		\item One of main building blocks in Kubernetes
 		\item A pod is a group of one or more tightly\\
-		 related containers that run together and share\\
-		 the same Linux namespace
-		 \item Each pod is like a separate logical machine.
-		 \item All containers in a pod will appear to be\\
-		 running on the same logical machine.
+		related containers that run together and share\\
+		the same Linux namespace
+		\item Each pod is like a separate logical machine.
+		\item All containers in a pod will appear to be\\
+		running on the same logical machine.
 	\end{itemize}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_5.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=0.8\textwidth]{figures/2_5.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -496,41 +488,48 @@
 	\frametitle{Pod commands}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_14.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_14.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_15.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_15.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{Running our first app on Kubernetes}
 	\framesubtitle{}
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-		$ kubectl run kubia --image=<dockerid>/kubia --port=8080 --generator=run-pod/v1
-		pod/kubia created
+$ kubectl run kubia --image=<dockerid>/kubia \\
+ --port=8080 --generator=run-pod/v1
+pod/kubia created
 	\end{lstlisting}
-}
+\end{frame}
 
-\frame{
+\begin{frame}[fragile]
 	\frametitle{Accessing our application}
 	\framesubtitle{}
-	We create a service that exposes our pod to us
+	We can create a service that exposes our pod to us
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-	$ kubectl expose pod kubia --type=NodePort --name kubia-http
+$ kubectl expose pod kubia --type=NodePort \\
+ --name kubia-http
 	\end{lstlisting}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_16.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{listings/2_16.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
+\end{frame}
+
+\frame{
+	\frametitle{Accessing our application cont.}
+	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{listings/2_17.png}
-		\caption{Listing. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/2_7.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -539,18 +538,8 @@
 	\frametitle{Accessing our application cont.}
 	\framesubtitle{}
 	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_7.png}
-		\caption{Fig. by courtesy of Marko Luksa}
-		\label{fig:}
-	\end{figure}
-}
-
-\frame{
-	\frametitle{Accessing our application cont.}
-	\framesubtitle{}
-	\begin{figure}[htbp!]
-		\includegraphics[width=0.7\textwidth]{figures/2_8.png}
-		\caption{Fig. by courtesy of Marko Luksa}
+		\includegraphics[width=1\textwidth]{figures/2_8.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
