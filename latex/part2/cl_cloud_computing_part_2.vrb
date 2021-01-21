@@ -1,0 +1,13 @@
+\frametitle{View and using history}
+	\framesubtitle{}
+	We can check the history of our deployments
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl rollout history deployment kubia
+$ kubectl rollout undo deployment kubia
+--to-revision=1
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_11.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}

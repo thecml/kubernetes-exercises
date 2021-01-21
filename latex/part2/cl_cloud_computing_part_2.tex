@@ -1,0 +1,484 @@
+%=====================================
+% Author: Christian Fischer Pedersen
+% About: Slide template
+%=====================================
+\input{cfp_slide_style.tex}
+%\setbeameroption{show notes} un-comment to see the notes
+
+%===============Title slide
+\slidetitlepage{Cloud Computing, Part 2}{Distributed and Pervasive Systems, MSc}
+
+\begin{document}
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+%===============Outline slide: Parts
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+%===============Slides
+\section[Pods]{Pods}
+\frame{
+	\frametitle{Pods in Kubernetes}
+	\framesubtitle{}
+	A short brush-up from last time
+	\begin{itemize}
+		\item A pod is a group of one or more tightly\\
+		related containers that run together and share namespace
+		\item Each pod is like a separate logical machine.
+		\item All containers in a pod will appear to be\\
+		running on the same logical machine.
+		\item Can only run on one node
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.8\textwidth]{figures/3_1.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Why pods?}
+	\framesubtitle{}
+	\begin{itemize}
+		\item Containers run only a single process.
+		\item Pods allow us to bind containers together as a single unit.
+		\item Pods run closely related processes together in the same environment.
+		\item Processes think they are running together. Closed world.
+	\end{itemize}	
+}
+
+\frame{
+	\frametitle{Network with pods}
+	\framesubtitle{}
+	\begin{itemize}
+		\item All pods reside in a single flat, shared, network address space.
+		\item Containers share the same IP
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/3_2.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{The inside of a pod}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.7\textwidth]{figures/3_3.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Using multiple containers}
+	\framesubtitle{}
+	When to use multiple containers?
+	\begin{itemize}
+		\item Do they need to be run together?
+		\item Do they scale together?
+		\item Are they a single components or one whole?
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.8\textwidth]{figures/3_4.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Creating pods}
+	\framesubtitle{}
+	\begin{itemize}
+		\item Created by posting a YAML or JSON to the Kubernetes API
+		\item Instead of "kubectl run", you post a YAML file
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/3_2.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Creating pods commands}
+	\framesubtitle{}
+	Useful commands for creating pods and getting the manifest
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl create -f kubia-manual.yamlpod
+$ kubectl get po kubia-manual -o yaml
+$ kubectl get po kubia-manual -o json
+$ kubectl get pods
+$ kubectl logs kubia-manual
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Connecting to pods}
+	\framesubtitle{}
+	Connect without a service
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl port-forward kubia-manual 8888:8080
+$ curl localhost:8888
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/3_5.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+\end{frame}
+
+\frame{
+	\frametitle{Organizing pods with labels}
+	\framesubtitle{}
+	\begin{itemize}
+		\item Use labels to organize all Kubernetes resources.
+		\item One or more labels
+		\item Vertical and horizontal.
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/3_7.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Organizing pods with labels cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/3_3.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Organizing pods with labels cont.}
+	\framesubtitle{}
+	Create and show pods with labels
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl create -f kubia-manual-with-labels.yaml
+$ kubectl get po --show-labels
+$ kubectl get po -L creation_method,env
+$ kubectl get po -l creation_method=manual
+	\end{lstlisting}
+	\begin{itemize}
+		\item Dont worry about scheduling. Kubernetes handles that.
+		\item Never say specifically what node a pod should run on.
+	\end{itemize}
+\end{frame}
+
+\frame{
+	\frametitle{Organizing pods with labels cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/3_8.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Scheduling pods to specific nodes}
+	\framesubtitle{}
+	Not best practice, but it is possible
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl label node gke-kubia-85f6-node-0rrx
+gpu=true
+$ kubectl get nodes -l gpu=true
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/3_4.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Stopping and removing pods}
+	\framesubtitle{}
+	Kubernetes sends a SIGTERM, waits 30 seconds, then SIGKILL.
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl delete po kubia-gp
+$ kubectl delete po -l creation_method=manual
+$ kubectl delete po -l rel=canary
+	\end{lstlisting}
+\end{frame}
+
+\frame{
+	\frametitle{Stopping and removing pods cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/3_10.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\section[Services]{Services}
+\frame{
+	\frametitle{Services in Kubernetes}
+	\framesubtitle{}
+	Motivation
+	\begin{itemize}
+		\item We need a way to connect to pods from the outside.
+		\item Pods are ephemeral, they come and go.
+		\item Clients don't know the IP's of pods.
+		\item Scaling means multiple pods can provide the same service.
+	\end{itemize}
+	How do they work?
+	\begin{itemize}
+		\item A Service is a resource you create to make a single, constant point of entry to pods.
+		\item Clients can now find frontend service, and frontend can find backend service.
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{Services in Kubernetes cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/5_1.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Services in Kubernetes cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.9\textwidth]{figures/5_2.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Services in Kubernetes cont.}
+	\framesubtitle{}
+	An example of a YAML file for a service
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/5_1.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Exposing services to external clients}
+	\framesubtitle{}
+	\begin{itemize}
+		\item Setting the service type to NodePort (open up a port on the node itself)
+		\item Setting the service type to LoadBalancer (deciated loud-balancer, AWS)
+		\item Creating  an Ingress resource (OSI level 7 resource)
+	\end{itemize}
+		\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/5_5.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Using a NodePort service}
+	\framesubtitle{}
+	Allows external traffic to our service
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl get svc kubia-nodeport
+NAME: kubia-nodeport
+CLUSTER-IP: 10.111.254.223
+EXTERNAL-IP: <nodes>
+PORT(S): 80:30123/TCP
+AGE: 2m
+	\end{lstlisting}
+\end{frame}
+
+\frame{
+	\frametitle{Using a NodePort service cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/5_6.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Using a LoadBalancer service}
+	\framesubtitle{}
+	\begin{itemize}
+		\item A LoadBalancer service is the default way to expose a service to the Internet
+		\item Each service gets its own IP
+		\item Was not supported by minikube until recently
+		\item Available by its EXTERNAL-IP
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/5_12.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Using a LoadBalancer service cont.}
+	\framesubtitle{}
+	Allows external traffic to our service (Internet)
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl get svc kubia-loadbalancer
+NAME: kubia-loadbalancer
+CLUSTER-IP: 10.111.241.153
+EXTERNAL-IP: 130.211.53.173
+PORT(S): 80:32143/TCP
+AGE: 1m
+	\end{lstlisting}
+\end{frame}
+
+\frame{
+	\frametitle{Using a LoadBalancer service cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.7\textwidth]{figures/5_7.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\section[Deployments]{Deployments}
+\frame{
+	\frametitle{Deployments in Kubernetes}
+	\framesubtitle{}
+	What are deployments?
+	\begin{itemize}
+		\item A Deployment is a high-level resource
+		\item It can deploy applications and update them declaratively
+		\item Makes it easy to manage and make rolling-updates
+		\item A Deployment is composed of a label selector,\\a replica count, and a pod template.
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.8\textwidth]{figures/9_8.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Deployments in Kubernetes cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=0.9\textwidth]{listings/9_7.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl create -f kubia-deployment-v1.yaml
+--record
+$ kubectl rollout status deployment kubia
+$ kubectl get po
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Rolling out updates}
+	\framesubtitle{}
+	To roll-out an update, simply do
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl set image deployment kubia
+nodejs=luksa/kubia:v2
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_9.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+\end{frame}
+
+\frame{
+	\frametitle{Rolling out updates cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_10.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Undoing a rollout}
+	\framesubtitle{}
+	Deployments make it easy to roll back an update.
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl rollout undo deployment kubia
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{View and using history}
+	\framesubtitle{}
+	We can check the history of our deployments
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl rollout history deployment kubia
+$ kubectl rollout undo deployment kubia
+--to-revision=1
+	\end{lstlisting}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_11.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+\end{frame}
+
+\frame{
+	\frametitle{Control the rate of the rollout}
+	\framesubtitle{}
+	You can control the max surge and max unavailable pods in the Deployment manifest
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/9_10.png}
+		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+	\begin{itemize}
+		\item maxSurge: Determines how many pods you allow to exist above
+		the desired replica count. Default 25%.
+		\item maxUnavailable: Determines how many pods can be unavailable relative
+		to the desired replica count. Default 25%
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{Control the rate of the rollout cont.} 
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_12.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\frame{
+	\frametitle{Control the rate of the rollout cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{figures/9_13.png}
+		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+%===============References
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+%\def\section*#1{}%remove auto heading for references
+\fontsize{5pt}{5pt}\selectfont
+\def\newblock{\hskip .11em plus .33em minus .07em}
+\bibliographystyle{chicago}
+\bibliography{cl_bibliography}
+\normalsize
+\end{frame}
+
+\end{document}

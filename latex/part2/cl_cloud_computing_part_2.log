@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  21 JAN 2021 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  21 JAN 2021 09:54
 entering extended mode
-**./cl_cloud_computing_part_1.tex
-(cl_cloud_computing_part_1.tex
+**./cl_cloud_computing_part_2.tex
+(cl_cloud_computing_part_2.tex
 LaTeX2e <2018-12-01>
 (cfp_slide_style.tex
 ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
@@ -1132,7 +1132,7 @@ Package: listings 2019/02/27 1.8b (Carsten Heinz)
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 9.
 
-(cl_cloud_computing_part_1.aux
+(cl_cloud_computing_part_2.aux
 
 LaTeX Warning: Label `fig:' multiply defined.
 
@@ -1209,7 +1209,7 @@ LaTeX Warning: Label `fig:' multiply defined.
 LaTeX Warning: Label `fig:' multiply defined.
 
 )
-\openout1 = `cl_cloud_computing_part_1.aux'.
+\openout1 = `cl_cloud_computing_part_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -1306,9 +1306,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
- (cl_cloud_computing_part_1.out) (cl_cloud_computing_part_1.out)
+ (cl_cloud_computing_part_2.out) (cl_cloud_computing_part_2.out)
 \@outlinefile=\write6
-\openout6 = `cl_cloud_computing_part_1.out'.
+\openout6 = `cl_cloud_computing_part_2.out'.
 
 
 ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translato
@@ -1340,7 +1340,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count321
- (cl_cloud_computing_part_1.nav)
+ (cl_cloud_computing_part_2.nav)
 ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd")
 ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd")
 ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd")
@@ -1365,457 +1365,474 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {C:/Users/cml/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(cl_cloud_computing_part_1.toc) [2
+(cl_cloud_computing_part_2.toc) [2
 
-] (cl_cloud_computing_part_1.toc) [3
+] (cl_cloud_computing_part_2.toc) [3
 
 ]
+<figures/3_1.png, id=61, 601.4972pt x 221.32687pt>
+File: figures/3_1.png Graphic file (type png)
+<use figures/3_1.png>
+Package pdftex.def Info: figures/3_1.png  used on input line 41.
+(pdftex.def)             Requested size: 245.83282pt x 90.45753pt.
+
+Overfull \vbox (7.11359pt too high) detected at line 41
+ []
+
 [4
 
-] [5
-
-] (cl_cloud_computing_part_1.toc) [6
-
-] [7
+ <./figures/3_1.png>] [5
 
 ]
-<figures/1_1.png, id=127, 539.76656pt x 247.67531pt>
-File: figures/1_1.png Graphic file (type png)
-<use figures/1_1.png>
-Package pdftex.def Info: figures/1_1.png  used on input line 110.
-(pdftex.def)             Requested size: 307.28987pt x 141.00253pt.
- [8
-
- <./figures/1_1.png>]
-<figures/1_2.png, id=144, 706.89093pt x 449.42906pt>
-File: figures/1_2.png Graphic file (type png)
-<use figures/1_2.png>
-Package pdftex.def Info: figures/1_2.png  used on input line 120.
-(pdftex.def)             Requested size: 307.28987pt x 195.36975pt.
+<figures/3_2.png, id=85, 554.07pt x 231.11343pt>
+File: figures/3_2.png Graphic file (type png)
+<use figures/3_2.png>
+Package pdftex.def Info: figures/3_2.png  used on input line 66.
+(pdftex.def)             Requested size: 307.28987pt x 128.17778pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 }
-       
-Overfull \vbox (13.6966pt too high) detected at line 120
+l.66 }
+       [6
+
+ <./figures/3_2.png>]
+<figures/3_3.png, id=97, 242.40562pt x 181.42781pt>
+File: figures/3_3.png Graphic file (type png)
+<use figures/3_3.png>
+Package pdftex.def Info: figures/3_3.png  used on input line 76.
+(pdftex.def)             Requested size: 215.10196pt x 160.99962pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.76 }
+       [7
+
+ <./figures/3_3.png>]
+<figures/3_4.png, id=110, 529.98pt x 282.30469pt>
+File: figures/3_4.png Graphic file (type png)
+<use figures/3_4.png>
+Package pdftex.def Info: figures/3_4.png  used on input line 92.
+(pdftex.def)             Requested size: 245.83282pt x 130.94724pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 }
+      
+Overfull \vbox (6.80327pt too high) detected at line 92
  []
 
-[9
+[8
 
- <./figures/1_2.png>]
-<figures/1_3.png, id=158, 648.17157pt x 337.26pt>
-File: figures/1_3.png Graphic file (type png)
-<use figures/1_3.png>
-Package pdftex.def Info: figures/1_3.png  used on input line 130.
-(pdftex.def)             Requested size: 307.28987pt x 159.89139pt.
+ <./figures/3_4.png>]
+<listings/3_2.png, id=122, 559.33969pt x 231.86626pt>
+File: listings/3_2.png Graphic file (type png)
+<use listings/3_2.png>
+Package pdftex.def Info: listings/3_2.png  used on input line 106.
+(pdftex.def)             Requested size: 307.28987pt x 127.3853pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 }
-        [10
+l.106 }
+        [9
 
- <./figures/1_3.png>] (cl_cloud_computing_part_1.toc) [11
+ <./listings/3_2.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
 
-] [12
+ (cl_cloud_computing_part_2.vrb) [10
 
 ]
-<figures/1_4.png, id=196, 686.565pt x 370.38374pt>
-File: figures/1_4.png Graphic file (type png)
-<use figures/1_4.png>
-Package pdftex.def Info: figures/1_4.png  used on input line 158.
-(pdftex.def)             Requested size: 307.28987pt x 165.77254pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.158 }
-        [13
-
- <./figures/1_4.png>] [14
-
-]
-<figures/1_6.png, id=221, 700.11563pt x 328.22626pt>
-File: figures/1_6.png Graphic file (type png)
-<use figures/1_6.png>
-Package pdftex.def Info: figures/1_6.png  used on input line 193.
-(pdftex.def)             Requested size: 307.28987pt x 144.0644pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.193 }
-        [15
-
- <./figures/1_6.png>]
-<figures/1_7.png, id=235, 840.89156pt x 315.42844pt>
-File: figures/1_7.png Graphic file (type png)
-<use figures/1_7.png>
-Package pdftex.def Info: figures/1_7.png  used on input line 203.
-(pdftex.def)             Requested size: 307.28987pt x 115.26758pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.203 }
-        [16
-
- <./figures/1_7.png>] (cl_cloud_computing_part_1.toc) [17
-
-] [18
-
-]
-<figures/1_8.png, id=273, 645.91313pt x 252.945pt>
-File: figures/1_8.png Graphic file (type png)
-<use figures/1_8.png>
-Package pdftex.def Info: figures/1_8.png  used on input line 233.
-(pdftex.def)             Requested size: 307.28987pt x 120.33537pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.233 }
-        [19
-
- <./figures/1_8.png>] [20
-
-] [21
-
-]
-<figures/1_9.png, id=308, 621.07031pt x 244.66406pt>
-File: figures/1_9.png Graphic file (type png)
-<use figures/1_9.png>
-Package pdftex.def Info: figures/1_9.png  used on input line 285.
-(pdftex.def)             Requested size: 307.28987pt x 121.05121pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.285 }
-        [22
-
- <./figures/1_9.png>]
-<figures/1_10.png, id=322, 660.96938pt x 469.755pt>
-File: figures/1_10.png Graphic file (type png)
-<use figures/1_10.png>
-Package pdftex.def Info: figures/1_10.png  used on input line 295.
-(pdftex.def)             Requested size: 245.83282pt x 174.71695pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.295 }
-        [23
-
- <./figures/1_10.png>] (cl_cloud_computing_part_1.toc) [24
-
-]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
+\openout4 = `cl_cloud_computing_part_2.vrb'.
 
 
-(cl_cloud_computing_part_1.vrb
-<listings/2_1.png, id=350, 630.10406pt x 182.93344pt>
-File: listings/2_1.png Graphic file (type png)
-<use listings/2_1.png>
-Package pdftex.def Info: listings/2_1.png  used on input line 8.
-(pdftex.def)             Requested size: 307.28987pt x 89.21388pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 		\label{fig:}
-                   ) [25
-
- <./listings/2_1.png>]
-<figures/2_1.png, id=366, 709.14937pt x 309.40594pt>
-File: figures/2_1.png Graphic file (type png)
-<use figures/2_1.png>
-Package pdftex.def Info: figures/2_1.png  used on input line 325.
-(pdftex.def)             Requested size: 307.28987pt x 134.07588pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.325 }
-        [26
-
- <./figures/2_1.png>]
-<listings/2_2.png, id=380, 619.56468pt x 236.38312pt>
-File: listings/2_2.png Graphic file (type png)
-<use listings/2_2.png>
-Package pdftex.def Info: listings/2_2.png  used on input line 340.
-(pdftex.def)             Requested size: 307.28987pt x 117.23904pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.340 }
-        [27
-
- <./listings/2_2.png>]
-<listings/2_3.png, id=394, 607.51968pt x 100.12407pt>
-File: listings/2_3.png Graphic file (type png)
-<use listings/2_3.png>
-Package pdftex.def Info: listings/2_3.png  used on input line 354.
-(pdftex.def)             Requested size: 307.28987pt x 50.64398pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.354 }
-        [28
-
- <./listings/2_3.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
- (cl_cloud_computing_part_1.vrb
-<listings/2_4.png, id=408, 606.01407pt x 106.89937pt>
-File: listings/2_4.png Graphic file (type png)
-<use listings/2_4.png>
-Package pdftex.def Info: listings/2_4.png  used on input line 8.
-(pdftex.def)             Requested size: 276.559pt x 48.78445pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 		\label{fig:}
-                   
-<listings/2_5.png, id=411, 609.77812pt x 146.79843pt>
-File: listings/2_5.png Graphic file (type png)
-<use listings/2_5.png>
-Package pdftex.def Info: listings/2_5.png  used on input line 13.
-(pdftex.def)             Requested size: 276.559pt x 66.58058pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 		\label{fig:}
-                   )
-Overfull \vbox (7.97192pt too high) detected at line 373
- []
-
-[29
-
- <./listings/2_4.png> <./listings/2_5.png>]
-<figures/2_2.png, id=426, 702.37407pt x 405.76593pt>
-File: figures/2_2.png Graphic file (type png)
-<use figures/2_2.png>
-Package pdftex.def Info: figures/2_2.png  used on input line 383.
-(pdftex.def)             Requested size: 307.28987pt x 177.52835pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.383 }
-        [30
-
- <./figures/2_2.png>]
-<figures/2_3.png, id=440, 575.90157pt x 229.60782pt>
-File: figures/2_3.png Graphic file (type png)
-<use figures/2_3.png>
-Package pdftex.def Info: figures/2_3.png  used on input line 393.
-(pdftex.def)             Requested size: 307.28987pt x 122.51839pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.393 }
-        [31
-
- <./figures/2_3.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
- (cl_cloud_computing_part_1.vrb
-Overfull \hbox (85.92455pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [32
-
-]
-<listings/2_6.png, id=465, 614.295pt x 135.50626pt>
-File: listings/2_6.png Graphic file (type png)
-<use listings/2_6.png>
-Package pdftex.def Info: listings/2_6.png  used on input line 428.
-(pdftex.def)             Requested size: 307.28987pt x 67.78397pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.428 }
-       
-<listings/2_8.png, id=468, 607.51968pt x 102.3825pt>
-File: listings/2_8.png Graphic file (type png)
-<use listings/2_8.png>
-Package pdftex.def Info: listings/2_8.png  used on input line 428.
-(pdftex.def)             Requested size: 307.28987pt x 51.78633pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.428 }
-        [33
-
- <./listings/2_6.png> <./listings/2_8.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
-
-(cl_cloud_computing_part_1.vrb
-<listings/2_9.png, id=483, 611.28375pt x 150.5625pt>
-File: listings/2_9.png Graphic file (type png)
-<use listings/2_9.png>
-Package pdftex.def Info: listings/2_9.png  used on input line 7.
-(pdftex.def)             Requested size: 307.28987pt x 75.6854pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 		\label{fig:}
-                  
-Overfull \hbox (3.14256pt too wide) in paragraph at lines 13--14
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [34
-
- <./listings/2_9.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
- (cl_cloud_computing_part_1.vrb) [35
-
-]
-<figures/2_5.png, id=507, 626.34pt x 244.66406pt>
-File: figures/2_5.png Graphic file (type png)
-<use figures/2_5.png>
-Package pdftex.def Info: figures/2_5.png  used on input line 484.
-(pdftex.def)             Requested size: 245.83282pt x 96.02711pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.484 }
-       
-Overfull \vbox (12.68317pt too high) detected at line 484
- []
-
-[36
-
- <./figures/2_5.png>]
-<listings/2_14.png, id=521, 603.0028pt x 94.10156pt>
-File: listings/2_14.png Graphic file (type png)
-<use listings/2_14.png>
-Package pdftex.def Info: listings/2_14.png  used on input line 499.
-(pdftex.def)             Requested size: 307.28987pt x 47.95381pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.499 }
-       
-<listings/2_15.png, id=524, 599.23875pt x 94.85437pt>
-File: listings/2_15.png Graphic file (type png)
-<use listings/2_15.png>
-Package pdftex.def Info: listings/2_15.png  used on input line 499.
-(pdftex.def)             Requested size: 307.28987pt x 48.64284pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.499 }
-        [37
-
- <./listings/2_14.png> <./listings/2_15.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
-
-(cl_cloud_computing_part_1.vrb
-Overfull \hbox (16.93956pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][] 
- []
-
-) [38
-
-]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
- (cl_cloud_computing_part_1.vrb
+(cl_cloud_computing_part_2.vrb
 Overfull \hbox (3.14256pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][] 
  []
 
-<listings/2_16.png, id=550, 605.26125pt x 119.69719pt>
-File: listings/2_16.png Graphic file (type png)
-<use listings/2_16.png>
-Package pdftex.def Info: listings/2_16.png  used on input line 9.
-(pdftex.def)             Requested size: 307.28987pt x 60.77078pt.
+<figures/3_5.png, id=143, 560.8453pt x 137.01187pt>
+File: figures/3_5.png Graphic file (type png)
+<use figures/3_5.png>
+Package pdftex.def Info: figures/3_5.png  used on input line 9.
+(pdftex.def)             Requested size: 307.28987pt x 75.06825pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.11 		\label{fig:}
-                   ) [39
+                   ) [11
 
- <./listings/2_16.png>]
-<figures/2_7.png, id=564, 629.35126pt x 201.00093pt>
-File: figures/2_7.png Graphic file (type png)
-<use figures/2_7.png>
-Package pdftex.def Info: figures/2_7.png  used on input line 534.
-(pdftex.def)             Requested size: 307.28987pt x 98.14166pt.
+ <./figures/3_5.png>]
+<figures/3_7.png, id=155, 650.43pt x 276.28218pt>
+File: figures/3_7.png Graphic file (type png)
+<use figures/3_7.png>
+Package pdftex.def Info: figures/3_7.png  used on input line 149.
+(pdftex.def)             Requested size: 307.28987pt x 130.53136pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.534 }
-        [40
+l.149 }
+        [12
 
- <./figures/2_7.png>]
-<figures/2_8.png, id=578, 639.13782pt x 293.59688pt>
-File: figures/2_8.png Graphic file (type png)
-<use figures/2_8.png>
-Package pdftex.def Info: figures/2_8.png  used on input line 544.
-(pdftex.def)             Requested size: 307.28987pt x 141.15784pt.
+ <./figures/3_7.png>]
+<listings/3_3.png, id=167, 441.90094pt x 211.54031pt>
+File: listings/3_3.png Graphic file (type png)
+<use listings/3_3.png>
+Package pdftex.def Info: listings/3_3.png  used on input line 159.
+(pdftex.def)             Requested size: 307.28987pt x 147.10884pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.544 }
-        [41
+l.159 }
+        [13
 
- <./figures/2_8.png>] (cl_cloud_computing_part_1.bbl) [42
+ <./listings/3_3.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb
+Overfull \hbox (30.73656pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [14
+
+]
+<figures/3_8.png, id=188, 627.09282pt x 289.08pt>
+File: figures/3_8.png Graphic file (type png)
+<use figures/3_8.png>
+Package pdftex.def Info: figures/3_8.png  used on input line 185.
+(pdftex.def)             Requested size: 307.28987pt x 141.65926pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.185 }
+        [15
+
+ <./figures/3_8.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb
+Overfull \hbox (3.14256pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+<listings/3_4.png, id=200, 575.14874pt x 182.18062pt>
+File: listings/3_4.png Graphic file (type png)
+<use listings/3_4.png>
+Package pdftex.def Info: listings/3_4.png  used on input line 10.
+(pdftex.def)             Requested size: 307.28987pt x 97.3364pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 		\label{fig:}
+                   ) [16
+
+ <./listings/3_4.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb
+Overfull \hbox (3.14256pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][] 
+ []
+
+) [17
+
+]
+<figures/3_10.png, id=220, 609.02531pt x 279.29344pt>
+File: figures/3_10.png Graphic file (type png)
+<use figures/3_10.png>
+Package pdftex.def Info: figures/3_10.png  used on input line 222.
+(pdftex.def)             Requested size: 307.28987pt x 140.92487pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.222 }
+        [18
+
+ <./figures/3_10.png>] (cl_cloud_computing_part_2.toc) [19
+
+] [20
+
+]
+<figures/5_1.png, id=251, 612.03656pt x 364.36125pt>
+File: figures/5_1.png Graphic file (type png)
+<use figures/5_1.png>
+Package pdftex.def Info: figures/5_1.png  used on input line 250.
+(pdftex.def)             Requested size: 307.28987pt x 182.9363pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250 }
+       
+Overfull \vbox (1.26314pt too high) detected at line 250
+ []
+
+[21
+
+ <./figures/5_1.png>]
+<figures/5_2.png, id=263, 386.19281pt x 255.20343pt>
+File: figures/5_2.png Graphic file (type png)
+<use figures/5_2.png>
+Package pdftex.def Info: figures/5_2.png  used on input line 260.
+(pdftex.def)             Requested size: 276.559pt x 182.75723pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.260 }
+       
+Overfull \vbox (1.08408pt too high) detected at line 260
+ []
+
+[22
+
+ <./figures/5_2.png>]
+<listings/5_1.png, id=275, 505.13719pt x 160.34906pt>
+File: listings/5_1.png Graphic file (type png)
+<use listings/5_1.png>
+Package pdftex.def Info: listings/5_1.png  used on input line 271.
+(pdftex.def)             Requested size: 307.28987pt x 97.54608pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.271 }
+        [23
+
+ <./listings/5_1.png>]
+<figures/5_5.png, id=287, 496.10344pt x 194.97844pt>
+File: figures/5_5.png Graphic file (type png)
+<use figures/5_5.png>
+Package pdftex.def Info: figures/5_5.png  used on input line 286.
+(pdftex.def)             Requested size: 307.28987pt x 120.77231pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.286 }
+       
+Overfull \vbox (10.83667pt too high) detected at line 286
+ []
+
+[24
+
+ <./figures/5_5.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb) [25
+
+]
+<figures/5_6.png, id=308, 581.17125pt x 419.31656pt>
+File: figures/5_6.png Graphic file (type png)
+<use figures/5_6.png>
+Package pdftex.def Info: figures/5_6.png  used on input line 310.
+(pdftex.def)             Requested size: 307.28987pt x 221.71205pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.310 }
+       
+Overfull \vbox (40.0389pt too high) detected at line 310
+ []
+
+[26
+
+ <./figures/5_6.png>]
+<listings/5_12.png, id=320, 573.64313pt x 179.92218pt>
+File: listings/5_12.png Graphic file (type png)
+<use listings/5_12.png>
+Package pdftex.def Info: listings/5_12.png  used on input line 326.
+(pdftex.def)             Requested size: 307.28987pt x 96.38232pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.326 }
+        [27
+
+ <./listings/5_12.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb) [28
+
+]
+<figures/5_7.png, id=340, 576.65437pt x 466.74374pt>
+File: figures/5_7.png Graphic file (type png)
+<use figures/5_7.png>
+Package pdftex.def Info: figures/5_7.png  used on input line 350.
+(pdftex.def)             Requested size: 215.10196pt x 174.10262pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.350 }
+        [29
+
+ <./figures/5_7.png>] (cl_cloud_computing_part_2.toc) [30
+
+]
+<figures/9_8.png, id=362, 340.27126pt x 97.11281pt>
+File: figures/9_8.png Graphic file (type png)
+<use figures/9_8.png>
+Package pdftex.def Info: figures/9_8.png  used on input line 368.
+(pdftex.def)             Requested size: 245.83282pt x 70.16121pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.368 }
+        [31
+
+ <./figures/9_8.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb
+<listings/9_7.png, id=375, 566.115pt x 229.60782pt>
+File: listings/9_7.png Graphic file (type png)
+<use listings/9_7.png>
+Package pdftex.def Info: listings/9_7.png  used on input line 4.
+(pdftex.def)             Requested size: 276.559pt x 112.16896pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 		\label{fig:}
+                  ) [32
+
+ <./listings/9_7.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb
+<figures/9_9.png, id=387, 573.64313pt x 199.49532pt>
+File: figures/9_9.png Graphic file (type png)
+<use figures/9_9.png>
+Package pdftex.def Info: figures/9_9.png  used on input line 9.
+(pdftex.def)             Requested size: 307.28987pt x 106.86743pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 		\label{fig:}
+                   ) [33
+
+ <./figures/9_9.png>]
+<figures/9_10.png, id=399, 633.11531pt x 179.16937pt>
+File: figures/9_10.png Graphic file (type png)
+<use figures/9_10.png>
+Package pdftex.def Info: figures/9_10.png  used on input line 409.
+(pdftex.def)             Requested size: 307.28987pt x 86.96265pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.409 }
+        [34
+
+ <./figures/9_10.png>]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+ (cl_cloud_computing_part_2.vrb) [35
+
+]
+\openout4 = `cl_cloud_computing_part_2.vrb'.
+
+
+(cl_cloud_computing_part_2.vrb
+<figures/9_11.png, id=419, 582.67688pt x 164.11313pt>
+File: figures/9_11.png Graphic file (type png)
+<use figures/9_11.png>
+Package pdftex.def Info: figures/9_11.png  used on input line 10.
+(pdftex.def)             Requested size: 307.28987pt x 86.55132pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 		\label{fig:}
+                   ) [36
+
+ <./figures/9_11.png>]
+<listings/9_10.png, id=431, 546.54187pt x 104.64093pt>
+File: listings/9_10.png Graphic file (type png)
+<use listings/9_10.png>
+Package pdftex.def Info: listings/9_10.png  used on input line 451.
+(pdftex.def)             Requested size: 307.28987pt x 58.83322pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.451 }
+        [37
+
+ <./listings/9_10.png>]
+<figures/9_12.png, id=444, 648.17157pt x 292.09125pt>
+File: figures/9_12.png Graphic file (type png)
+<use figures/9_12.png>
+Package pdftex.def Info: figures/9_12.png  used on input line 461.
+(pdftex.def)             Requested size: 307.28987pt x 138.47736pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.461 }
+        [38
+
+ <./figures/9_12.png>]
+<figures/9_13.png, id=456, 596.98032pt x 298.86656pt>
+File: figures/9_13.png Graphic file (type png)
+<use figures/9_13.png>
+Package pdftex.def Info: figures/9_13.png  used on input line 471.
+(pdftex.def)             Requested size: 307.28987pt x 153.83818pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.471 }
+        [39
+
+ <./figures/9_13.png>] (cl_cloud_computing_part_2.bbl) [40
 
 ]
 \tf@nav=\write7
-\openout7 = `cl_cloud_computing_part_1.nav'.
+\openout7 = `cl_cloud_computing_part_2.nav'.
 
 \tf@toc=\write8
-\openout8 = `cl_cloud_computing_part_1.toc'.
+\openout8 = `cl_cloud_computing_part_2.toc'.
 
 \tf@snm=\write9
-\openout9 = `cl_cloud_computing_part_1.snm'.
+\openout9 = `cl_cloud_computing_part_2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 484.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 484.
 
-(cl_cloud_computing_part_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
-Package rerunfilecheck Info: File `cl_cloud_computing_part_1.out' has not chang
+(cl_cloud_computing_part_2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 484.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 484.
+Package rerunfilecheck Info: File `cl_cloud_computing_part_2.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: D9A8EACEEB80B25D85177BA247DC177B;233.
+(rerunfilecheck)             Checksum: B558E05910643830CE938B702938599B;131.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26740 strings out of 492895
- 496885 string characters out of 3124669
- 601248 words of memory out of 3000000
- 29950 multiletter control sequences out of 15000+200000
+ 26726 strings out of 492895
+ 496939 string characters out of 3124669
+ 600248 words of memory out of 3000000
+ 29938 multiletter control sequences out of 15000+200000
  14017 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,92p,839b,1104s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,19n,92p,839b,1100s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmss10.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmss8.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
@@ -1825,9 +1842,9 @@ rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/cml/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/c
 ml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on cl_cloud_computing_part_1.pdf (42 pages, 1531784 bytes).
+Output written on cl_cloud_computing_part_2.pdf (40 pages, 1031555 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
