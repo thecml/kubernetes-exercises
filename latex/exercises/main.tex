@@ -103,13 +103,13 @@ The Kubernetes docs will instruct you to download a Hypervisor before installing
 
 Step 3: Assuming the installation went well, then from a terminal with administrator access type:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ minikube start
 \end{lstlisting}
 
 This should produce output similar to this:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 Starting local Kubernetes cluster...
 Running pre-create checks...
 Creating machine...
@@ -118,7 +118,7 @@ Starting local Kubernetes cluster...
 
 Step 4: We can now use kubectl to access our new cluster. To verify it is working, you can use the \textit{kubectl cluster-info} command in the following listing:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl cluster-info
 Kubernetes master is running at https://192.168.99.100:8443
 KubeDNS is running at https://192.168.99.100:8443/api/v1/proxy/...
@@ -127,7 +127,7 @@ kubernetes-dashboard is running at https://192.168.99.100:8443/api/v1/...
 
 This shows everything is set up and running. We'll get to actually deploying software and and containers in the next exercises. As a bonus feature, minikube bundles the Kubernetes Dashboard, which you can launch with the following command to see a ton of information about your new environment:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ minikube dashboard
 \end{lstlisting}
 
@@ -147,7 +147,7 @@ See more about Docker's architecture here: \url{https://wiki.aquasec.com/display
 
 Step 1: We want to first run a simple Hello World container with Docker and then use the Docker client to make our own container image - which we'll later deploy to Kubernetes and run in a managed environment. The public Docker container registry, Docker Hub, contains ready-to-use container images for many well-known software packages. One of them is the busybox image, which we'll use to run a simple "Hello world" command. Use the \textit{docker run} command and specify the busybox image and what command it should execute, like this (remember to start Docker!):
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker run busybox echo "Hello world"
 Unable to find image 'busybox:latest' locally
 latest: Pulling from library/busybox
@@ -166,7 +166,7 @@ This downloads and executes the whole app in a single command. Figure \ref{fig:d
 	\label{fig:dockerhelloworld}
 \end{figure}
 
-Step 2: Now that we have a working Docker setup, we can make our own application, package it into a container image and run it on Docker. And later deploy it to Kubernetes, of course. We'll build a trivial Node.js web application here. The application will accept HTTP requests and respond with the hostname of the machine its running  in. We'll see, that an app running  inside a container sees its own hostname and not that of the host machine, even though it's running on the host. This will be useful later, when we deploy the app on Kubernetes and scale it out (run multiple instances of the app). The app will consist of a single file called app.js, so create that on your computer and add the content below:
+Step 2: Now that we have a working Docker setup, we can make our own application, package it into a container image and run it on Docker. And later deploy it to Kubernetes, of course. We'll build a trivial Node.js web application here. The application will accept HTTP requests and respond with the hostname of the machine its running  in. We'll see, that an app running  inside a container sees its own hostname and not that of the host machine, even though it's running on the host. This will be useful later, when we deploy the app on Kubernetes and scale it out (run multiple instances of the app). The app will consist of a single file called app.js, so create that on your computer and add the content below (\textbf{note that copy/pasting code from the PDF can cause issues with formatting, and that the file has to be saved in UTF-8 encoding}):
 
 \begin{lstlisting}[language=JavaScript, numbers=none, frame=single]
 const http = require('http');
@@ -197,13 +197,13 @@ The \textit{FROM} line defines the container image we'll use as a starting point
 
 Step 4: Now we're ready to build the image. Open a terminal in the directory where the app.js and Dockerfile files are and build the image using Docker:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker build -t kubia .
 \end{lstlisting}
 
 Our image should now be available in our local Docker repository:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker images
 REPOSITORY   TAG      IMAGE ID           CREATED             VIRTUAL SIZE
 kubia        latest   d30ecc7419e7       1 minute ago        637.1 MB
@@ -211,44 +211,44 @@ kubia        latest   d30ecc7419e7       1 minute ago        637.1 MB
 
 We can now run our image with the following command:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker run --name kubia-container -p 8080:8080 -d kubia
 \end{lstlisting}
 
 This tells Docker to run a new container called kubia-container from the kubia image we just built. The container will be detached from the console (-d flag), which means it will run in the background. Port 8080 on our local machine will be mapped to port 8080 inside the container (-p 8080:8080 option), so we can now access the app at: \url{http://localhost:8080} in a browser or use curl from a terminal:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ curl localhost:8080
 You've hit 44d76963e8e1
 \end{lstlisting}
 
 Our tiny application is now running inside a container, isolated from everything else. It's returning its hostname 44d76963e8e1, which is not the hostname of the host machine, but the ID of the docker container. To list all running containers on Docker, simply run:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker ps
 \end{lstlisting}
 
 A single container is running, the one we've just deployed. For each container, Docker prints out its ID and name, the image used to run the container, and the command that's executing inside the container. To stop our app, we'll use Docker to stop the kubia-container container by:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker stop kubia-container
 \end{lstlisting}
 
 This will stop the main process running in the container, but not remove the actual container from the system. You can still see it with the\textit{ docker ps} command. To truly remove the container, we need to remove it with the \textit{docker rm} command:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker rm kubia-container
 \end{lstlisting}
 
 Step 5: In order to run our image in Kubernetes, we need to push it to Docker Hub, so that Kubernetes can download and execute it. What you need to do first is to go Docker Hub at \url{http://hub.docker.com} and create an account. You'll need a Docker ID to properly tag the containers you push to Docker Hub according to their rules. Docker Hub only allows you to push an image if the image's repository name starts with your Docker Hub ID. Once you know your ID, let's rename the previous image from \textit{kubia} to \textit{dockerid/kubia}, where \textit{dockerid} is your Docker ID:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker tag kubia <dockerid>/kubia
 \end{lstlisting}
 
 Confirm that you have successfully created an additional tag for the kubia image by running (unimportant information is omitted). Note that now \textit{kubia} and \textit{luksa/kubia} points to the same image ID.
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker images
 REPOSITORY    	TAG     IMAGE ID         CREATED           SIZE
 dockerid/kubia  latest  d30ecc7419e7     5 minutes ago	   660MB
@@ -257,7 +257,7 @@ kubia           latest  d30ecc7419e7     5 minutes ago	   660MB
 
 Let's push the image to Docker Hub by first logging in and then pushing it:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker login
 Authenticating with existing credentials...
 Login Succeeded
@@ -266,7 +266,7 @@ $ docker push dockerid/kubia
 
 After the push to Docker Hub is complete, the image will be available to everyone. You can go online and see the image in your own repository at Docker Hub. Your friends can run your images on their computers and you can run their images on your computer. To run the image, execute the following command:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ docker run -p 8080:8080 -d <dockerid>/kubia
 \end{lstlisting}
 
@@ -280,14 +280,14 @@ In this exercise we'll dig a bit deeper into Kubernetes and try to run pods and 
 
 Step 1: First we'll create a Kubernetes pod based on the simple Node.js app we made previously and pushed to Docker Kub. Recall that a pod is a group of one or more tightly-coupled containers and a pod is usually operated by a ReplicationController or Deployment. For now, we'll just create a stand-alone pod:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl run kubia --image=<dockerid>/kubia --port=8080 --generator=run-pod/v1
 pod/kubia created
 \end{lstlisting}
 
 As the previous command's output shows, a pod called \textit{kubia} has been created. We can verify this by executing the \textit{get pods} command, which should tell us that the pod is up and running:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl get pods
 NAME	READY   STATUS    RESTARTS   AGE
 kubia 1/1     Running   0          1m
@@ -297,14 +297,14 @@ It takes some time to download the image first time, so if your pod says \textit
 
 Step 2: A pod in Kubernetes get its own IP, but that IP is internal to the cluster and cannot be accessed from outside. In order for us to do so, we need to make a Service object. We'll create a special service of type NodePort, so that we'll expose the service on an internal IP in the cluster. To create the service, run:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl expose pod kubia --type=NodePort --name kubia-http
 service/kubia-http exposed
 \end{lstlisting}
 
 We have now made a service called kubia-http. We can use the \textit{kubectl get service} command to see it:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl get services
 NAME	       TYPE	          CLUSTER-IP	    EXTERNAL-IP	 PORT(S)
 kubernetes   ClusterIP      10.96.0.1       <none>       443/TCP
@@ -313,14 +313,14 @@ kubia-http   NodePort       10.99.156.171   <none>       8080:32583/TCP
 
 If we ignore the \textit{kubernetes} service and focus on our kubia-http service, we see that Kubernetes has assigned a cluster IP to it and bound the pod's HTTP port 8080 to 32583 of our host. Now, the cluster IP is internal to Kubernetes, so you won't be able to access that, and since we're running minikube on our own personal computer, there is no such thing as an external IP. In a real cluster, you would use a \textit{LoadBalancer} service here and bind it to an external IP that your clients can access, but minikube does not support that, so we'll just use the \textit{NodePort} version. To access our pod through the service, we need to know the URL, so let's find it (this may be a different IP for you):
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ minikube service kubia-http --url
 http://172.17.248.28:32583
 \end{lstlisting}
 
 Use curl or your favorite web browser to access the pod. Alternatively, minikube has a helper function that does all this in one go, if you run \textit{minikube service kubia-http}.
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ curl http://172.17.248.28:32583
 \end{lstlisting}
 
@@ -328,7 +328,7 @@ The app is reporting the name of the pod as its hostname, since each pod behaves
 
 Now, delete the service and pod we just created, since we'll turn our attention to deployments next:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl delete service kubia-http
 service "kubia-http" deleted
 $ kubectl delete pod kubia
@@ -342,14 +342,14 @@ Service: \url{https://kubernetes.io/docs/concepts/services-networking/service/} 
 
 Let's create a deployment in the terminal:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl create deployment kubia-deployment --image=<dockerid>/kubia
 deployment.apps/kubia-deployment created
 \end{lstlisting}
 
 We'll verify our deployment using the \textit{kubectl get deployments} command:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl get deployments
 NAME               READY   UP-TO-DATE   AVAILABLE   AGE
 kubia-deployment   1/1     1            1           41s
@@ -357,15 +357,15 @@ kubia-deployment   1/1     1            1           41s
 
 Our deployment is ready and running in one pod. Now let's create a service for it like before:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl expose deployment kubia-deployment --type=NodePort --port=8080 --target-port=8080 --name=kubia-service
 service/kubia-deployment exposed
 \end{lstlisting}
 
 Use minikube's helper function to get the IP for the service (the IP may differ at your end):
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-$ minikube service kubia-deployment --url
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
+$ minikube service kubia-service --url
 http://172.17.248.28:32358
 $ curl http://172.17.248.28:32358
 \end{lstlisting}
@@ -374,7 +374,7 @@ When you access the service, the pod replies with it's hostname and its unique I
 
 \newpage
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl scale deployment kubia-deployment --replicas=5
 $ kubectl get pods
 NAME                   READY   STATUS              RESTARTS   AGE
@@ -387,7 +387,7 @@ kubia-deployment-...   0/1     ContainerCreating   0          4s
 
 The pods should soon come up and when they do, we can access them through our service. Recall that us (the client) do not talk directly with the pods, but with the service. Thus we are unaware of how many pods the system has and what their status are. We simply ask the service to provide us the application and it will forward our request to the first working pod in a round-robin fashion. One thing to note is that requests belonging to the same session gets routed to the same pod every time, so if you want to see other pods responding, you'd have to make a new session. Try starting a different browser and you should start seeing different pods responding to your request. 
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ curl http://172.17.248.28:32358
 \end{lstlisting}
 
@@ -406,7 +406,7 @@ kubia-deployment-...   1/1     Terminating   0          8m15s
 
 If you want a more detailed look at the many other details of a pod, use \textit{kubectl describe}. Note that all pods are running on the same minikube node, as we do not have multiple nodes.
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl describe pod <pod_name>
 Name:         kubia-deployment-6fdb84979b-7krb8
 Namespace:    default
@@ -449,7 +449,7 @@ We'll create the YAML above as a kubia-deployment.yml file and save it on our co
 
 When you've created the file, simply deploy it with \textit{kubectl apply}:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl apply -f .\kubia-deployment.yml
 \end{lstlisting}
 
@@ -472,7 +472,7 @@ spec:
 
 Apply the service file similarly:
 
-\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+\begin{lstlisting}[numbers=none, basicstyle=\mdseries]
 $ kubectl apply -f .\kubia-service.yml
 \end{lstlisting}
 

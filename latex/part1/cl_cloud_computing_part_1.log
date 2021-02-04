@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  21 JAN 2021 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  1 FEB 2021 10:39
 entering extended mode
 **./cl_cloud_computing_part_1.tex
 (cl_cloud_computing_part_1.tex
@@ -1810,7 +1810,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  26740 strings out of 492895
- 496885 string characters out of 3124669
+ 496887 string characters out of 3124669
  601248 words of memory out of 3000000
  29950 multiletter control sequences out of 15000+200000
  14017 words of font info for 53 fonts, out of 3000000 for 9000
@@ -1825,7 +1825,7 @@ rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/cml/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/c
 ml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on cl_cloud_computing_part_1.pdf (42 pages, 1531784 bytes).
+Output written on cl_cloud_computing_part_1.pdf (42 pages, 1531778 bytes).
 PDF statistics:
  651 PDF objects out of 1000 (max. 8388607)
  93 named destinations out of 1000 (max. 500000)

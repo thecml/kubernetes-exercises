@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  21 JAN 2021 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  4 FEB 2021 09:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -439,8 +439,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
 LaTeX Font Info:    Font shape `OT1/pbk/m/it' in size <10> not available
 (Font)              Font shape `OT1/pbk/l/it' tried instead on input line 119.
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 123.
 [1
 
 {C:/Users/cml/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -489,7 +487,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
-[3] [4]
+[3]
+LaTeX Font Info:    Try loading font information for OML+pbk on input line 246.
+
+ ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlpbk.fd"
+File: omlpbk.fd 
+)
+LaTeX Font Info:    Font shape `OML/pbk/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 246.
+ [4]
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
@@ -521,17 +527,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--419
  []
 
 [7]
-LaTeX Font Info:    Try loading font information for OML+pbk on input line 443.
-
- ("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlpbk.fd"
-File: omlpbk.fd 
-)
-LaTeX Font Info:    Font shape `OML/pbk/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 443.
-
 Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
+
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 453.
+
+("C:\Users\cml\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspbk.fd"
+File: omspbk.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 453.
 
 
 AED: lastpage setting LastPage
@@ -546,13 +552,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
  ) 
 Here is how much of TeX's memory you used:
- 8669 strings out of 492895
- 126285 string characters out of 3124669
+ 8683 strings out of 492895
+ 126588 string characters out of 3124669
  305829 words of memory out of 3000000
- 12295 multiletter control sequences out of 15000+200000
- 11022 words of font info for 32 fonts, out of 3000000 for 9000
+ 12308 multiletter control sequences out of 15000+200000
+ 10405 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,74p,1092b,1450s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,11n,74p,1092b,1318s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
@@ -561,11 +567,10 @@ sfonts/cm/cmsy10.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 type1/urw/bookman/ubkl8a.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/bookman/ubkli8a.pfb><C:/Users/cml/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/cml/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/cml/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on main.pdf (8 pages, 202056 bytes).
+eX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (8 pages, 201318 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
+ 317 PDF objects out of 1000 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
  30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
