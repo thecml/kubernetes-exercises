@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  1 FEB 2021 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.29)  5 FEB 2021 10:27
 entering extended mode
 **./cl_cloud_computing_part_1.tex
 (cl_cloud_computing_part_1.tex
@@ -1190,24 +1190,6 @@ LaTeX Warning: Label `fig:' multiply defined.
 
 LaTeX Warning: Label `fig:' multiply defined.
 
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
 )
 \openout1 = `cl_cloud_computing_part_1.aux'.
 
@@ -1685,104 +1667,7 @@ Overfull \hbox (3.14256pt too wide) in paragraph at lines 13--14
  (cl_cloud_computing_part_1.vrb) [35
 
 ]
-<figures/2_5.png, id=507, 626.34pt x 244.66406pt>
-File: figures/2_5.png Graphic file (type png)
-<use figures/2_5.png>
-Package pdftex.def Info: figures/2_5.png  used on input line 484.
-(pdftex.def)             Requested size: 245.83282pt x 96.02711pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.484 }
-       
-Overfull \vbox (12.68317pt too high) detected at line 484
- []
-
-[36
-
- <./figures/2_5.png>]
-<listings/2_14.png, id=521, 603.0028pt x 94.10156pt>
-File: listings/2_14.png Graphic file (type png)
-<use listings/2_14.png>
-Package pdftex.def Info: listings/2_14.png  used on input line 499.
-(pdftex.def)             Requested size: 307.28987pt x 47.95381pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.499 }
-       
-<listings/2_15.png, id=524, 599.23875pt x 94.85437pt>
-File: listings/2_15.png Graphic file (type png)
-<use listings/2_15.png>
-Package pdftex.def Info: listings/2_15.png  used on input line 499.
-(pdftex.def)             Requested size: 307.28987pt x 48.64284pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.499 }
-        [37
-
- <./listings/2_14.png> <./listings/2_15.png>]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
-
-(cl_cloud_computing_part_1.vrb
-Overfull \hbox (16.93956pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][] 
- []
-
-) [38
-
-]
-\openout4 = `cl_cloud_computing_part_1.vrb'.
-
- (cl_cloud_computing_part_1.vrb
-Overfull \hbox (3.14256pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][][][] 
- []
-
-<listings/2_16.png, id=550, 605.26125pt x 119.69719pt>
-File: listings/2_16.png Graphic file (type png)
-<use listings/2_16.png>
-Package pdftex.def Info: listings/2_16.png  used on input line 9.
-(pdftex.def)             Requested size: 307.28987pt x 60.77078pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 		\label{fig:}
-                   ) [39
-
- <./listings/2_16.png>]
-<figures/2_7.png, id=564, 629.35126pt x 201.00093pt>
-File: figures/2_7.png Graphic file (type png)
-<use figures/2_7.png>
-Package pdftex.def Info: figures/2_7.png  used on input line 534.
-(pdftex.def)             Requested size: 307.28987pt x 98.14166pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.534 }
-        [40
-
- <./figures/2_7.png>]
-<figures/2_8.png, id=578, 639.13782pt x 293.59688pt>
-File: figures/2_8.png Graphic file (type png)
-<use figures/2_8.png>
-Package pdftex.def Info: figures/2_8.png  used on input line 544.
-(pdftex.def)             Requested size: 307.28987pt x 141.15784pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.544 }
-        [41
-
- <./figures/2_8.png>] (cl_cloud_computing_part_1.bbl) [42
+(cl_cloud_computing_part_1.bbl) [36
 
 ]
 \tf@nav=\write7
@@ -1794,12 +1679,11 @@ l.544 }
 \tf@snm=\write9
 \openout9 = `cl_cloud_computing_part_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
-
-(cl_cloud_computing_part_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
+ (cl_cloud_computing_part_1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 478.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
 Package rerunfilecheck Info: File `cl_cloud_computing_part_1.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: D9A8EACEEB80B25D85177BA247DC177B;233.
@@ -1809,10 +1693,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26740 strings out of 492895
- 496887 string characters out of 3124669
- 601248 words of memory out of 3000000
- 29950 multiletter control sequences out of 15000+200000
+ 26684 strings out of 492895
+ 495910 string characters out of 3124669
+ 601252 words of memory out of 3000000
+ 29914 multiletter control sequences out of 15000+200000
  14017 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,92p,839b,1104s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1825,9 +1709,9 @@ rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/cml/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/c
 ml/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on cl_cloud_computing_part_1.pdf (42 pages, 1531778 bytes).
+Output written on cl_cloud_computing_part_1.pdf (36 pages, 1306889 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

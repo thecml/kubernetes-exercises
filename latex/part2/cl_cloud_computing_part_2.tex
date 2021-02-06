@@ -20,11 +20,25 @@
 \end{frame}
 
 %===============Slides
+\section[Recap]{Recap}
+\frame{
+	\frametitle{From last time}
+	\framesubtitle{}
+	What did we learn?
+	\begin{itemize}
+		\item Cloud computing is delivery of online computing services
+		\item Microservices are SoA-styled small, independent services that do one thing
+		\item Containers are lightweight isolated software environments
+		\item Docker is a container tool that can run and create containers
+		\item Kubernetes is an open-source container orchestration engine
+	\end{itemize}
+}
+
 \section[Pods]{Pods}
 \frame{
 	\frametitle{Pods in Kubernetes}
 	\framesubtitle{}
-	A short brush-up from last time
+	What is a pod?
 	\begin{itemize}
 		\item A pod is a group of one or more tightly\\
 		related containers that run together and share namespace
@@ -57,6 +71,7 @@
 	\begin{itemize}
 		\item All pods reside in a single flat, shared, network address space.
 		\item Containers share the same IP
+		\item Avoid port conflicts
 	\end{itemize}
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{figures/3_2.png}
@@ -82,7 +97,7 @@
 	\begin{itemize}
 		\item Do they need to be run together?
 		\item Do they scale together?
-		\item Are they a single components or one whole?
+		\item Are they single components or one whole?
 	\end{itemize}
 	\begin{figure}[htbp!]
 		\includegraphics[width=0.8\textwidth]{figures/3_4.png}
@@ -97,10 +112,11 @@
 	\begin{itemize}
 		\item Created by posting a YAML or JSON to the Kubernetes API
 		\item Instead of "kubectl run", you post a YAML file
+		\item Enables more options and version control
 	\end{itemize}
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/3_2.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -124,8 +140,11 @@ $ kubectl logs kubia-manual
 	Connect without a service
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
 $ kubectl port-forward kubia-manual 8888:8080
+... Forwarding from 127.0.0.1:8888 -> 8080
+... Forwarding from [::1]:8888 -> 8080
 $ curl localhost:8888
 	\end{lstlisting}
+	Note that minikube uses nodeIP:nodePort and not localhost:nodePort. Check with "minikube ip".
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{figures/3_5.png}
 		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
@@ -153,7 +172,7 @@ $ curl localhost:8888
 	\framesubtitle{}
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/3_3.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -195,7 +214,7 @@ $ kubectl get nodes -l gpu=true
 	\end{lstlisting}
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/3_4.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 \end{frame}
@@ -228,8 +247,8 @@ $ kubectl delete po -l rel=canary
 	Motivation
 	\begin{itemize}
 		\item We need a way to connect to pods from the outside.
-		\item Pods are ephemeral, they come and go.
-		\item Clients don't know the IP's of pods.
+		\item Pods are short-lived, they come and go.
+		\item Clients should not know the IP's of pods.
 		\item Scaling means multiple pods can provide the same service.
 	\end{itemize}
 	How do they work?
@@ -262,21 +281,79 @@ $ kubectl delete po -l rel=canary
 \frame{
 	\frametitle{Services in Kubernetes cont.}
 	\framesubtitle{}
-	An example of a YAML file for a service
+	An example of a YAML file for a service. Our service accepts connections port 80
+	and route each connection to port 8080 to a pod matching \textit{app=kubia}.
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/5_1.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
+
+\begin{frame}[fragile]
+	\frametitle{Services in Kubernetes cont.}
+	\framesubtitle{}
+	When created, we check to see if the service is running
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl get svc
+NAME: kubia
+CLUSTER-IP: 10.111.249.153
+EXTERNAL-IP: <none>
+PORT(S): 80/TCP
+AGE: 6m
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Testing the service from the inside}
+	\framesubtitle{}
+	With \textit{kubectl exec} command we can access the service from inside
+	Replace with your target pod and cluster IP
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl exec kubia-7nog1 -- curl -s \\
+http://10.111.249.153
+You've hit kubia-gzwli
+	\end{lstlisting}
+	The \textit{kubectl exec} behaves similarly to \textit{ssh}.
+\end{frame}
+
+\frame{
+	\frametitle{Testing the service from the inside cont.}
+	\framesubtitle{}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/5_3.png}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Discovering our service via DNS}
+	\framesubtitle{}
+	\begin{itemize}
+		\item Kubernetes comes with a \textit{kube-dns} for free
+		\item Each service gets a DNS entry in the internal DNS server
+		\item Client pods can access the service by its FQDN.
+	\end{itemize}
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl exec -it kubia-3inly
+root@kubia-3inly:/#
+$ curl http://kubia.default.svc.cluster.local
+Youve hit kubia-5asi2
+$ curl http://kubia.default
+You've hit kubia-3inly
+$ curl http://kubia
+You've hit kubia-8awf3
+	\end{lstlisting}
+\end{frame}
 
 \frame{
 	\frametitle{Exposing services to external clients}
 	\framesubtitle{}
 	\begin{itemize}
-		\item Setting the service type to NodePort (open up a port on the node itself)
-		\item Setting the service type to LoadBalancer (deciated loud-balancer, AWS)
-		\item Creating  an Ingress resource (OSI level 7 resource)
+		\item By setting the service type to NodePort (open up a port on the node itself)
+		\item By setting the service type to LoadBalancer (deciated loud-balancer, AWS)
+		\item By creating an Ingress resource (OSI level 7 resource)
 	\end{itemize}
 		\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{figures/5_5.png}
@@ -285,10 +362,25 @@ $ kubectl delete po -l rel=canary
 	\end{figure}
 }
 
-\begin{frame}[fragile]
+\frame{
 	\frametitle{Using a NodePort service}
 	\framesubtitle{}
-	Allows external traffic to our service
+	\begin{itemize}
+		\item For a NodePort service, each cluster node opens a port on the node itself and redirects traffic received on that port to the underlying service.
+		\item This allows external traffic to our service.
+		\item Can be configured with a YAML file.
+	\end{itemize}
+		\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/5_11.png}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Using a NodePort service cont.}
+	\framesubtitle{}
+	We can check our service with \textit{kubectl get svc} command
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
 $ kubectl get svc kubia-nodeport
 NAME: kubia-nodeport
@@ -297,6 +389,12 @@ EXTERNAL-IP: <nodes>
 PORT(S): 80:30123/TCP
 AGE: 2m
 	\end{lstlisting}
+The service is now accessible at the following addresses:
+\begin{itemize}
+	\item 10.11.254.223:80
+	\item $<$1st node's IP$>$:30123
+	\item $<$2nd node's IP$>$:30123, and so on.
+\end{itemize}
 \end{frame}
 
 \frame{
@@ -320,7 +418,7 @@ AGE: 2m
 	\end{itemize}
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/5_12.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 }
@@ -328,7 +426,7 @@ AGE: 2m
 \begin{frame}[fragile]
 	\frametitle{Using a LoadBalancer service cont.}
 	\framesubtitle{}
-	Allows external traffic to our service (Internet)
+	We can check our service with \textit{kubectl get svc} command
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
 $ kubectl get svc kubia-loadbalancer
 NAME: kubia-loadbalancer
@@ -337,6 +435,8 @@ EXTERNAL-IP: 130.211.53.173
 PORT(S): 80:32143/TCP
 AGE: 1m
 	\end{lstlisting}
+	The service is now accessible by its external IP:\\
+	curl http://130.211.53.173
 \end{frame}
 
 \frame{
@@ -348,6 +448,41 @@ AGE: 1m
 		\label{fig:}
 	\end{figure}
 }
+
+\frame{
+	\frametitle{Using a headless service}
+	\framesubtitle{}
+	Needed when client needs to connect to all pods
+	\begin{itemize}
+		\item A normal service just connects you to one pod
+		\item A headless service will return the IP's of all annotated pods
+		\item Can be accessed via DNS lookup
+		\item Client libraries exist to ease communication with API
+	\end{itemize}
+	\begin{figure}[htbp!]
+		\includegraphics[width=1\textwidth]{listings/5_18.png}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
+		\label{fig:}
+	\end{figure}
+}
+
+\begin{frame}[fragile]
+	\frametitle{Using a headless service cont.}
+	\framesubtitle{}
+	We can use the dnsutils image to verify a headless service
+	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
+$ kubectl run dnsutils --image=tutum/dnsutils \\
+--generator=run-pod/v1 --command -- \\
+sleep infinity
+pod "dnsutils" created
+$ kubectl exec dnsutils nslookup kubia-headless
+...
+Name:    kubia-headless.default ...
+Address: 10.108.1.4
+Name:    kubia-headless.default ...
+Address: 10.108.2.5
+	\end{lstlisting}
+\end{frame}
 
 \section[Deployments]{Deployments}
 \frame{
@@ -372,7 +507,7 @@ AGE: 1m
 	\framesubtitle{}
 	\begin{figure}[htbp!]
 		\includegraphics[width=0.9\textwidth]{listings/9_7.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
@@ -439,7 +574,7 @@ $ kubectl rollout undo deployment kubia
 	You can control the max surge and max unavailable pods in the Deployment manifest
 	\begin{figure}[htbp!]
 		\includegraphics[width=1\textwidth]{listings/9_10.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
+		\caption{Listing by courtesy of Marko Luksa\cite{Luksa2018}}
 		\label{fig:}
 	\end{figure}
 	\begin{itemize}
@@ -469,6 +604,20 @@ $ kubectl rollout undo deployment kubia
 		\label{fig:}
 	\end{figure}
 }
+
+\begin{frame}[fragile]
+	\frametitle{Different ways to modify resources}
+	\framesubtitle{}
+	There are several ways to modify a resource in Kubernetes
+	\begin{itemize}
+		\item kubectl edit - Opens a object's manifest in default editor
+		\item kubectl patch - Changes individual properties of an object
+		\item kubectl apply - Changes or creates an object from a YAML/JSON file
+		\item kubectl replace - Replaces existing object from a YAML/JSON file
+		\item kubectl set image - Changes a deployment's container image
+	\end{itemize}
+\end{frame}
+
 
 %===============References
 \begin{frame}[allowframebreaks]

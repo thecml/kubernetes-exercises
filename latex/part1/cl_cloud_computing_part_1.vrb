@@ -1,12 +1,17 @@
-\frametitle{Accessing our application}
+\frametitle{Setting up a Kubernetes cluster with Minikube}
 	\framesubtitle{}
-	We can create a service that exposes our pod to us
+	What is minikube
+	\begin{itemize}
+		\item A tool that enables us to run Kubernetes locally
+		\item Implements a local single node cluster
+		\item Runs on macOS, Linux and Windows
+		\item Used for Kubernetes development and prototyping
+		\item Exercises and project make use of minikube
+	\end{itemize}
+	You can also order a hosted Kubernetes cluster at \\
+	Google, Amazon, Microsoft Azure etc.
 	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-$ kubectl expose pod kubia --type=NodePort \\
- --name kubia-http
+$ minikube start
+$ kubectl get nodes
+$ kubectl describe node <nodeid>
 	\end{lstlisting}
-	\begin{figure}[htbp!]
-		\includegraphics[width=1\textwidth]{listings/2_16.png}
-		\caption{Listing. by courtesy of Marko Luksa\cite{Luksa2018}}
-		\label{fig:}
-	\end{figure}

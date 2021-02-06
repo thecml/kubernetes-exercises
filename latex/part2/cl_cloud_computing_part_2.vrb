@@ -1,13 +1,10 @@
-\frametitle{View and using history}
+\frametitle{Different ways to modify resources}
 	\framesubtitle{}
-	We can check the history of our deployments
-	\begin{lstlisting}[numbers=none, basicstyle=\ttfamily]
-$ kubectl rollout history deployment kubia
-$ kubectl rollout undo deployment kubia
---to-revision=1
-	\end{lstlisting}
-	\begin{figure}[htbp!]
-		\includegraphics[width=1\textwidth]{figures/9_11.png}
-		\caption{Fig. by courtesy of Marko Luksa\cite{Luksa2018}}
-		\label{fig:}
-	\end{figure}
+	There are several ways to modify a resource in Kubernetes
+	\begin{itemize}
+		\item kubectl edit - Opens a object's manifest in default editor
+		\item kubectl patch - Changes individual properties of an object
+		\item kubectl apply - Changes or creates an object from a YAML/JSON file
+		\item kubectl replace - Replaces existing object from a YAML/JSON file
+		\item kubectl set image - Changes a deployment's container image
+	\end{itemize}

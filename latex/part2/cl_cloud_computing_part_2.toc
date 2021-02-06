@@ -1,3 +1,4 @@
-\beamer@sectionintoc {1}{Pods}{3}{0}{1}
-\beamer@sectionintoc {2}{Services}{19}{0}{2}
-\beamer@sectionintoc {3}{Deployments}{30}{0}{3}
+\beamer@sectionintoc {1}{Recap}{3}{0}{1}
+\beamer@sectionintoc {2}{Pods}{5}{0}{2}
+\beamer@sectionintoc {3}{Services}{21}{0}{3}
+\beamer@sectionintoc {4}{Deployments}{39}{0}{4}
